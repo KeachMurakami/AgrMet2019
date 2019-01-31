@@ -536,13 +536,6 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- <br> -->
 <!-- <br> -->
 
-<!-- @ul -->
-<!-- - **Does PRI work as a Sign?** -->
-<!--     - **No**. PRI decreased after decrease in LUE -->
-<!-- - <!--html_preserve-->@fa[thumbs-down]<!--/html_preserve-->: PRI-driven environmental control -->
-<!-- - <!--html_preserve-->@fa[thumbs-up]<!--/html_preserve-->: Retrograde analysis of relationship between PRI and environments -->
-<!-- @ulend -->
-
 <!-- Note: -->
 
 <!-- Summary for the second exp. -->
