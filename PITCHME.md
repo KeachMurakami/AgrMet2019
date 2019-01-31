@@ -12,9 +12,9 @@
 <script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:60px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 日本農業気象学会2019年 (草薙キャンパス, 静岡県立大学)<br>
-This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> `KeachMurakami/AgrMet2019`
+This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> `[KeachMurakami/AgrMet2019](https://github.com/KeachMurakami/AgrMet2019)`
 </div>
 
 <br>
@@ -26,14 +26,15 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <br>
 
 <div style="text-align:right">
-<span style="color:orange">村上 貴一^1,2^</span>, Wah Soon Chow^1^<br>(^1^The Australian National University / ^2^山口大学)
+<span style="color:orange">村上 貴一<sup>1,2</sup></span>, Wah Soon Chow<sup>1</sup><br>(<sup>1</sup>The Australian National University, <sup>2</sup>山口大学)
 </div style="text-align:right">
 
+---?color=linear-gradient(to left, #56ccf2, #2f80ed)
+.slide: class="center"
 
-<!-- ---?color=linear-gradient(to left, #56ccf2, #2f80ed) -->
-<!-- <!-- .slide: class="center" --> -->
+### Background
 
-<!-- ### Background -->
+
 
 <!-- +++?image=img/regulatory_flow.png&position=bottom 100px right 60%&size=70% auto -->
 
@@ -55,8 +56,8 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- So, evaluation of photosynthesis is essential for horticulture. -->
 <!-- In the next slide I'll briefly overview the common methods. -->
 
-<!-- <!-- +++?image=img/comparison3.png&size=cover --> -->
-<!-- <!-- +++?image=img/comparison3.png&position=bottom 30px right 50%&size=80% auto --> -->
+<!-- +++?image=img/comparison3.png&size=cover -->
+<!-- +++?image=img/comparison3.png&position=bottom 30px right 50%&size=80% auto -->
 <!-- +++ -->
 
 <!-- <br> -->
@@ -66,7 +67,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <!-- Among several methods, the most common method is gas-exchange measurement, but this method is very slow, sometimes takes an-hour to evaluate a leaf. -->
 
-<!-- <!-- +++?image=img/comparison2.png&size=cover --> -->
+<!-- +++?image=img/comparison2.png&size=cover -->
 
 <!-- +++ -->
 
@@ -84,7 +85,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- I don't think so because we often want to evaluate hundreds of or thousands of leaves. -->
 <!-- That is, we need more rapid method. -->
 
-<!-- <!-- +++?image=img/comparison1.png&size=cover --> -->
+<!-- +++?image=img/comparison1.png&size=cover -->
 
 <!-- +++ -->
 
@@ -97,7 +98,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- And in this study, we focus on one of them called PRI. -->
 
 <!-- +++ -->
-<!-- <!-- .slide: class="center" --> -->
+<!-- .slide: class="center" -->
 
 <!-- ### Outline -->
 
@@ -121,7 +122,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- And finally summarise them. -->
 
 <!-- ---?color=linear-gradient(to left, #56ccf2, #2f80ed) -->
-<!-- <!-- .slide: class="center" --> -->
+<!-- .slide: class="center" -->
 
 <!-- ### What's PRI? -->
 
@@ -268,7 +269,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 <!-- ---?color=linear-gradient(to left, #56ccf2, #2f80ed) -->
-<!-- <!-- .slide: class="center" --> -->
+<!-- .slide: class="center" -->
 
 <!-- ### Expt. 1: short-term measurement <br> Track or Not? -->
 
@@ -312,7 +313,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- ``` -->
 
 <!-- +++?image=figure/single_pam-1.png&position=bottom 30px right 50%&size=55% auto -->
-<!-- <!-- .slide: data-background-transition="none" --> -->
+<!-- .slide: data-background-transition="none" -->
 
 <!-- @ul -->
 <!-- - <small>LUE dropped rapidly and then recovered gradually (i.e. Photosynthetic induction)</small> -->
@@ -351,7 +352,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- And the PRI is smaller under high-light.  -->
 
 <!-- +++?image=figure/single_dpri-2.png&position=bottom 30px right 50%&size=55% auto -->
-<!-- <!-- .slide: data-background-transition="none" --> -->
+<!-- .slide: data-background-transition="none" -->
 <!-- - <small>PRI response was slower than LUE response</small> -->
 <!-- - <small>The higher irradiance was, the greater PRI changed</small> -->
 <!-- - <small><span style="color:orange">Monotonic decay under high light</span></small> -->
@@ -360,7 +361,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- When look at the PRI under high-light, you can see that the decrase was monotonic. -->
 
 <!-- +++?image=figure/single_dpri-3.png&position=bottom 30px right 50%&size=55% auto -->
-<!-- <!-- .slide: data-background-transition="none" --> -->
+<!-- .slide: data-background-transition="none" -->
 <!-- - <small>PRI response was slower than LUE response</small> -->
 <!-- - <small>The higher irradiance was, the greater PRI changed</small> -->
 <!-- - <small><span style="color:orange">Monotonic decay under high light</span> while <aqua>down-up under low light</aqua></small> -->
@@ -370,7 +371,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- On the other hand under low-light, there was some gradual recovery although not clear. -->
 
 <!-- +++?image=figure/single_dpri-1.png&position=bottom 30px right 50%&size=55% auto -->
-<!-- <!-- .slide: data-background-transition="none" --> -->
+<!-- .slide: data-background-transition="none" -->
 <!-- - <small>PRI response was slower than LUE response</small> -->
 <!-- - <small>The higher irradiance was, the greater PRI changed</small> -->
 <!-- - <small><span style="color:orange">Monotonic decay under high light</span> while <aqua>down-up under low light</aqua></small> -->
@@ -417,7 +418,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- So we have to wait for a while to estimate light-use efficiency from PRI. -->
 
 <!-- +++ -->
-<!-- <!-- .slide: class="center" --> -->
+<!-- .slide: class="center" -->
 
 <!-- #### Expt. 1: Summary -->
 
@@ -443,7 +444,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- I'll move on to the second experiment. -->
 
 <!-- ---?color=linear-gradient(to left, #56ccf2, #2f80ed) -->
-<!-- <!-- .slide: class="center" --> -->
+<!-- .slide: class="center" -->
 
 <!-- ### Expt. 2: long-term measurement <br> PRI as a Sign? -->
 
@@ -470,7 +471,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <!-- <small>• PRI: <small>semi-automatic measurement by object tracking</small></small><br> -->
 <!-- <small>• Y<sub>II</sub> (= ϕ<sub>PSII</sub>) &prop; LUE <small>(e.g. Genty et al. 1989; BBA)</small></small> -->
-<!-- <!-- <small>• Incident PPFD</small><br> --> -->
+<!-- <small>• Incident PPFD</small><br> -->
 <!-- </div class="column2"> -->
 
 <!-- Note: -->
@@ -551,7 +552,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- But, retrograde analysis may be effective. -->
 
 <!-- ---?color=linear-gradient(to left, #56ccf2, #2f80ed) -->
-<!-- <!-- .slide: class="center" --> -->
+<!-- .slide: class="center" -->
 
 <!-- ### Summary -->
 
