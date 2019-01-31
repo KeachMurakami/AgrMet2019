@@ -17,7 +17,7 @@
 
 HL区の葉のPmax は実験期間を通して概ね一定の値であった (Fig. 1)。 この結果は HL 区の葉が処理開始時点で既に成熟していたことを意味する。 LL区の葉のP<sub>max</sub>は弱光処理開始から指数関数的減衰を示した。 一時的な弱光処理ののち再び強光処理を行ったR2、R4、R8の3試験区の葉の光合成能力は、いずれも強光処理開始から上昇し、4--7日で HL区と同程度の値となった。 経験式に基づくcyt-bf推定量の経時推移はP<sub>max</sub>と同様の傾向を示し (data not shown)、成熟葉内で新たにcyt-bfが合成されることが示唆された。 モデルに基づく解析では、一時的な弱光処理を行った3試験区間で、光合成能力再上昇時のcyt-bf合成の時定数に顕著な差がないことを示す結果が得られた (data not shown)。
 
-![Fig. 1](https://github.com/KeachMurakami/AgrMet2019/abstract/fig_1.pdf) *Fig. 1: 処理日数の異なる一時的弱光処理区 (R2, R4, R8) および対照区 (HL, LL) のエンドウ葉の光合成能力 (平均値±標準誤差, N = 2--8)*
+![Fig. 1](http://github.com/KeachMurakami/AgrMet2019/blob/master/abstract/fig_1.tiff?raw=true) *Fig. 1: 処理日数の異なる一時的弱光処理区 (R2, R4, R8) および対照区 (HL, LL) のエンドウ葉の光合成能力 (平均値±標準誤差, N = 2--8)*
 
 まとめ
 ======
