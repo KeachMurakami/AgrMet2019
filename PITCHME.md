@@ -14,14 +14,14 @@
 </script>
 <!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 日本農業気象学会2019年 (草薙キャンパス, 静岡県立大学)<br>
-This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> `[KeachMurakami/AgrMet2019](https://github.com/KeachMurakami/AgrMet2019)`
+This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> [`KeachMurakami/AgrMet2019`](https://github.com/KeachMurakami/AgrMet2019)
 </div>
 
+<br>
 <br>
 
 **成熟した葉の光合成能力は強光順化応答を示さないのか**
 
-<br>
 <br>
 <br>
 
@@ -30,7 +30,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 </div style="text-align:right">
 
 ---?color=linear-gradient(to left, #56ccf2, #2f80ed)
-.slide: class="center"
+<!-- .slide: class="center" -->
 
 ### Background
 
@@ -44,7 +44,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- - <small>Adjust environments → Evaluate photosynthesis → Adjust environments again</small> -->
 <!-- @ulend -->
 
-<!-- <!-- <img src="img/regulatory_flow.png" width="80%"> --> -->
+<!-- <img src="img/regulatory_flow.png" width="80%"> -->
 
 
 <!-- Note: -->
@@ -338,7 +338,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <!-- ``` -->
 
 <!-- +++?image=figure/single_dpri-1.png&position=bottom 30px right 50%&size=55% auto -->
-<!-- <!-- .slide: data-background-transition="none" --> -->
+<!-- .slide: data-background-transition="none" -->
 
 <!-- @ul -->
 <!-- - <small>PRI response was slower than LUE response</small> -->
