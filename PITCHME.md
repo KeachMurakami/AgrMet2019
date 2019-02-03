@@ -34,7 +34,77 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 ### Background
 
+光合成能力 = 高CO2・強光条件下での総光合成速度
 
+Fig.1
+
+- 強光下では高めた方が有利
+
++++
+
+知見１: 強光で育てれば光合成能力は高い
+
++++
+
+知見２: 光合成能力はCytochrome量に律速される
+
++++
+
+**Matureな葉ではどうか？**
+
+- Matureな葉では受光量の低下に応じて速やかにcyt-bfが分解される (Zhu et al. 2016)
+- Matureな葉ではcyt-bfは蓄積されない (Hojka et al. 2014)
+
++++
+
+Matureな葉の光合成能力の可逆性について
+
+
+
+---?color=linear-gradient(to left, #88ccf2, #aae7ed)
+
+### 材料および方法
+
+供試植物
+
+エンドウ (Pisum Sativum ‘Greenfeast’)
+
++++
+
+試験区
+
+
++++
+
+測定項目
+
+
+
+---?color=linear-gradient(to left, #88ccf2, #aae7ed)
+
+### 結果および考察
+
+---?color=linear-gradient(to left, #88ccf2, #aae7ed)
+
+### まとめ
+
++++
+
+<div style="position:relative; left:5px">
+
+@ul
+- 成熟した葉の光合成能力は強光順化応答を示すか？
+    - **示す。**
+- Cytochrome b6fは成熟した葉でも蓄積されるらしい
+- １週間程度の弱光処理であれば、再上昇時の時間的特性に著しい影響を及ぼすことはない
+@ulend
+
+</div style="position:relative; left:30px">
+
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:60px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+This work was supported by JSPS KAKENHI (Grant Number 17J04736 to K.M.)<br>
+Contact: Keach Murakami (keach.murakami@gmail.com)
+</div>
 
 <!-- +++?image=img/regulatory_flow.png&position=bottom 100px right 60%&size=70% auto -->
 
