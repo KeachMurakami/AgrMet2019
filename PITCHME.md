@@ -46,43 +46,60 @@ Fig.1
 
 +++
 
-知見２: 光合成能力はCytochrome量に律速される
+**成熟葉ではどうか？**
 
 +++
 
-**Matureな葉ではどうか？**
 
-- Matureな葉では受光量の低下に応じて速やかにcyt-bfが分解される (Zhu et al. 2016)
-- Matureな葉ではcyt-bfは蓄積されない (Hojka et al. 2014)
+- 成熟葉では受光量の低下に応じて速やかにcyt-bfが分解される (Zhu et al. 2016)
+- 成熟葉ではcyt-bfは蓄積されない (Hojka et al. 2014)
 
 +++
 
 Matureな葉の光合成能力の可逆性について
 
+- 成熟葉は強光順化しないのか？
+- 成熟葉ではcyt-bfは蓄積されないのか？
 
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
 ### 材料および方法
 
++++
+
 供試植物
 
-エンドウ (Pisum Sativum ‘Greenfeast’)
+エンドウ (*Pisum sativum*, ‘Greenfeast’)
 
 +++
 
 試験区
+
+<img src="img/sample.png" height="350px">
 
 
 +++
 
 測定項目
 
+- 光合成能力
+  - CO2濃度1%、PPFD2000のもと、酸素電極チャンバにより測定
+- cyto-bf量
+  - 光合成能力・機能的PSII量から、経験式 (Dwyer et al. 2012; JXB) に従って算出
+  
+
 
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
 ### 結果および考察
+
++++
+
+結果１: 光合成能力の推移
+
+
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -105,6 +122,17 @@ Matureな葉の光合成能力の可逆性について
 This work was supported by JSPS KAKENHI (Grant Number 17J04736 to K.M.)<br>
 Contact: Keach Murakami (keach.murakami@gmail.com)
 </div>
+
+
+
+
+
+---?color=linear-gradient(to left, #56ccf2, #2f80ed)
+
+### Appendix
+
++++
+
 
 <!-- +++?image=img/regulatory_flow.png&position=bottom 100px right 60%&size=70% auto -->
 
