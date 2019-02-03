@@ -76,7 +76,7 @@ Matureな葉の光合成能力の可逆性について
 
 試験区
 
-<img src="img/sample.png" height="350px">
+<img src="img/sample.png" height="350px", width="800px">
 
 
 +++
