@@ -12,7 +12,9 @@
 <script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
 <!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+
 日本農業気象学会2019年 (草薙キャンパス, 静岡県立大学)<br>
 This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> [`KeachMurakami/AgrMet2019`](https://github.com/KeachMurakami/AgrMet2019)
 </div>
@@ -32,21 +34,28 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 ---?color=linear-gradient(to left, #56ccf2, #2f80ed)
 <!-- .slide: class="center" -->
 
-### Background
-
-光合成能力 = 高CO2・強光条件下での総光合成速度
-
-Fig.1
-
-- 強光下では高めた方が有利
+## Introduction
 
 +++
 
-知見１: 強光で育てれば光合成能力は高い
+光合成能力 ~ 高CO~2~・強光条件下での総光合成速度
+
+
+
+- 強光下では高めた方が有利
+- 弱光下ではあまり重要ではない
+
++++
+
+知見１: 強光で育てれば光合成能力が高くなる (強光順化)
+
+
 
 +++
 
 **成熟葉ではどうか？**
+
+- 葉の寿命は長い
 
 +++
 
@@ -64,7 +73,7 @@ Matureな葉の光合成能力の可逆性について
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
-### 材料および方法
+## Materials & Methods
 
 +++
 
@@ -83,6 +92,7 @@ Matureな葉の光合成能力の可逆性について
 
 測定項目
 
+<small>
 - 光合成能力
   - 酸素電極チャンバを使用
   - CO<sub>2</sub>濃度1%、飽和白色LED光 (2000 µmol m<sup>-2</sup> s<sup>-1</sup>)
@@ -90,8 +100,8 @@ Matureな葉の光合成能力の可逆性について
   - 酸素電極チャンバを使用
   - アクティブなPSIIが飽和閃光４回ごとに１回酸素発生するという仮定 (Chow et al. 1991)
 - cyto-bf量
-  - 光合成能力・機能的PSII量から、経験式 (Dwyer et al. 2012; JXB) に従って算出
-
+  - 光合成能力・機能的PSII量から、経験式 (Dwyer et al. 2012) に従って算出
+</small>
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -166,15 +176,15 @@ $$
 結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
 
 $$
-
 \frac{dP_\textrm{max}}{dt} == P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
-
 $$
 
 <img src="img/sample.png" width="800px", height="300px">
 
 - 時定数の推定結果
 - 試験区間差あまりなさそう
+
+
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -198,11 +208,21 @@ Contact: Keach Murakami (keach.murakami@gmail.com)
 
 
 
+---?color=linear-gradient(to left, #56ccf2, #2f80ed)
+
+### 野望
+
+- 知りたいのは？
+
+- 
 
 
 ---?color=linear-gradient(to left, #56ccf2, #2f80ed)
 
 ### Appendix
+
++++
+
 
 +++
 
