@@ -151,6 +151,12 @@ Matureな葉の光合成能力の可逆性について
 \frac{dP_\textrm{max}}{dt} == P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
 \]`
 
+`\[
+\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+ \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\]`
+
+
 <img src="img/sample.png" width="800px", height="300px">
 
 - *k*~d~が分解速度、*k*~r~が合成速度、*P*~steady~が順化後の定常値に関係
