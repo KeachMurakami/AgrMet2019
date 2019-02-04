@@ -76,7 +76,7 @@ Matureな葉の光合成能力の可逆性について
 
 試験区
 
-<img src="img/scheme.pdf" height="350px", width="800px">
+<img src="img/scheme.png" height="350px", width="800px">
 
 
 +++
@@ -84,11 +84,13 @@ Matureな葉の光合成能力の可逆性について
 測定項目
 
 - 光合成能力
-  - CO2濃度1%、PPFD2000のもと、酸素電極チャンバにより測定
+  - 酸素電極チャンバを使用
+  - CO<sub>2</sub>濃度1%、飽和白色LED光 (2000 µmol m<sup>-2</sup> s<sup>-1</sup>)
+- 機能的PSII量
+  - 酸素電極チャンバを使用
+  - アクティブなPSIIが飽和閃光４回ごとに１回酸素発生するという仮定 (Chow et al. 1991)
 - cyto-bf量
   - 光合成能力・機能的PSII量から、経験式 (Dwyer et al. 2012; JXB) に従って算出
-  
-
 
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
@@ -99,15 +101,86 @@ Matureな葉の光合成能力の可逆性について
 
 結果１: 光合成能力の推移
 
+<img src="img/sample.png" width="800px", height="300px">
 
+- HL: 処理開始から光合成能力が概ね一定 -> 成熟葉
+- LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい
+
++++
+
+結果１: 光合成能力の推移
+
+<img src="img/sample.png" width="800px", height="300px">
+
+- R2-R8: 再強光処理で上昇 -> **強光順化**
+
++++
+
+結果２: cyt-bf量
+
+<img src="img/sample.png" width="800px", height="300px">
+
+- Pmaxと同様の傾向 -> 機能的PSII量はリミットしていない (Dwyer et al. 2012と同様)
+- **再強光処理により、成熟葉内でもcyt-bfが合成された？**
+
++++
+
+結果２: cyt-bf量 | 合成量 (LLとの差) 
+
+<img src="img/sample.png" width="800px", height="300px">
+
+- R8でやや回復開始が遅れる傾向があるものの、大差なしか？
+
++++
+
+結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
+
+$$
+
+\frac{dP_\textrm{max}}{dt} == P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+
+$$
+
+<img src="img/sample.png" width="800px", height="300px">
+
+- *k*~d~が分解速度、*k*~r~が合成速度、*P*~steady~が順化後の定常値に関係
+- ![](https://raw.githubusercontent.com/stan-dev/logos/master/logo_tm.png) + ![](https://www.r-project.org/logo/Rlogo.png)で統計モデリング
+
++++
+
+結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
+
+$$
+
+\frac{dP_\textrm{max}}{dt} == P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+
+$$
+
+<img src="img/sample.png" width="800px", height="300px">
+
+- 悪くはないだろう
+- ほげ
+
++++
+
+結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
+
+$$
+
+\frac{dP_\textrm{max}}{dt} == P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+
+$$
+
+<img src="img/sample.png" width="800px", height="300px">
+
+- 時定数の推定結果
+- 試験区間差あまりなさそう
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
 ### まとめ
 
 +++
-
-<div style="position:relative; left:5px">
 
 @ul
 - 成熟した葉の光合成能力は強光順化応答を示すか？
