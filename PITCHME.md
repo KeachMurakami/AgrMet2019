@@ -13,7 +13,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:520px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:570px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 
 日本農業気象学会2019年 (草薙キャンパス, 静岡県立大学)<br>
 This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> [`KeachMurakami/AgrMet2019`](https://github.com/KeachMurakami/AgrMet2019)
@@ -96,7 +96,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 エンドウ (*Pisum sativum*, ‘Greenfeast’)
 
-<img src="img/scheme.png" height="350px", width="800px">
+<img src="img/sample.png" height="350px", width="800px">
 
 +++
 
@@ -109,14 +109,15 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 測定項目
 
-<div font-size="0.7em">
-- 光合成能力
-  - CO<sub>2</sub>濃度1%、飽和光 (白色LED, 2000 µmol m<sup>-2</sup> s<sup>-1</sup>) での総酸素発生速度
-- 機能的PSII量
-  - PSIIが飽和閃光４回ごとに１回酸素発生するという仮定 (Chow et al. 1991)
-- cyto-bf量
-  - 光合成能力・機能的PSII量から、経験式 (Dwyer et al. 2012) に従って算出
-</div>
+
+- <small>光合成能力</small>
+  - <small>CO<sub>2</sub>濃度1%、飽和光 (白色LED, 2000 µmol m<sup>-2</sup> s<sup>-1</sup>) での総酸素発生速度</small>
+- <small>機能的PSII量</small>
+  - <small>PSIIが飽和閃光４回ごとに１回酸素発生するという仮定 (Chow et al. 1991)</small>
+- <small>cyto-bf量</small>
+  - <small>光合成能力・機能的PSII量から、経験式 (Dwyer et al. 2012) に従って算出</small>
+
+
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -129,14 +130,14 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <img src="figure/pmax-1.png" width="800px", height="300px">
 
-> - HL: 処理開始から光合成能力が概ね一定 -> 成熟葉
-> - LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい
+- HL: 処理開始から光合成能力が概ね一定 -> 成熟葉
+- LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい
 
 +++
 
 <img src="figure/pmax-2.fig" width="800px", height="300px">
 
-> - R2, R4, R8: 再強光処理で上昇 -> **強光順化**
+- R2, R4, R8: 再強光処理で上昇 -> **強光順化**
 
 +++
 
@@ -144,8 +145,8 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <img src="figure/cyf-1.png" width="800px", height="300px">
 
-> - Pmaxと同様の傾向 -> 機能的PSII量はリミットしていない (Dwyer et al. 2012と同様)
-> - **再強光処理により、成熟葉内でもcyt-bfが合成された？**
+- Pmaxと同様の傾向 -> PSII量はリミットしていない (Dwyer et al. 2012と同様)
+- **再強光処理により、成熟葉内でもcyt-bfが合成された？**
 
 +++
 
@@ -153,7 +154,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <img src="figure/recovery-1.png" width="800px", height="300px">
 
-> - R8でやや回復開始が遅れる傾向があるものの、大差なしか？
+- R8でやや回復開始が遅れる傾向があるものの、大差なしか？
 
 +++
 
@@ -173,16 +174,14 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-> - *k*<sub>d</sub>が分解速度、*k*<sub>r</sub>が合成速度、*P*<sub>steady</sub>が順化後の定常値に関係
-> - ![](https://raw.githubusercontent.com/stan-dev/logos/master/logo_tm.png) x ![](https://www.r-project.org/logo/Rlogo.png)で統計モデリング
+<img src="figure/model-3.png" width="800px", height="300px">
+
+- *k*<sub>d</sub>が分解速度、*k*<sub>r</sub>が合成速度、*P*<sub>steady</sub>が順化後の定常値に関係
+- `Stan`+`R` で統計モデリング
 
 +++
 
 結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
-
-`\[
-\frac{dP_\textrm{max}}{dt} = P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
-\]`
 
 <div style="position:relative; left:0px; top:10%; width:100%; height:800px">
   <div style="position:absolute; left:0px; top:0px; width:100%; height:100%">
@@ -203,8 +202,8 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <img src="figure/kr.png" width="800px", height="300px">
 
-> - 顕著な試験区間差はなさそう (反応の半分完了)
-> - むしろ弱光処理期間が長いほどで回復が速い傾向
+- 顕著な試験区間差はなさそう (半減期換算で、およそ14--17日の範囲)
+- むしろ弱光処理期間が長いほどで回復が速い傾向
 
 
 +++
@@ -212,9 +211,9 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 #### 成熟葉で順化なし、とした文献があるけど
 
 <!-- > ‘strong ontogenitc repression of cyt-bf complex biogenesis in fully expanded leaves’---Schöttler et al. (2015) -->
-> ‘switch-off of cytochrome *b*<sub>6</sub>*f* complex biogenesis in mature leaves’---Hojka et al. (2014)
+<small>‘switch-off of cytochrome *b*<sub>6</sub>*f* complex biogenesis in mature leaves’---Hojka et al. (2014)</small>
 
-> ‘... all plants suffered from moderate oxidative stress’
+> ‘... under high-light conditions, all plants suffered from moderate oxidative stress’
 
 ![](img/hojka_growth_condition.png)
 
@@ -225,9 +224,9 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 +++
 
 @ul
-- 成熟した葉の光合成能力は強光順化応答を示すか？
+- 成熟した葉の光合成能力は強光順化応答を示さないのか
     - **示す。**
-- Cytochrome b6fは成熟した葉でも蓄積されるらしい
+- Cytochrome *b*<sub>6</sub>*f*は成熟した葉でも蓄積されるらしい
 - １週間程度の弱光処理であれば、再上昇時の時間的特性に著しい影響を及ぼすことはない
 @ulend
 
@@ -243,7 +242,6 @@ Contact: Keach Murakami (keach.murakami@gmail.com)
 ### 光合成量の期待値を最大化する
 
 - 
-
 - 
 
 
