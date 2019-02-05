@@ -38,39 +38,52 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 +++
 
-光合成能力 ~ 高CO~2~・強光条件下での総光合成速度
+光合成能力 ~ 高CO<sub>2</sub>・強光条件下での総光合成速度
 
 
 
 ![](fig/light_curve-1.png)
 
-- 強光下では高めた方が有利
+- 強光下では高い方が有利
 - 弱光下ではあまり重要ではない
 
 +++
 
-知見１: 強光で育てれば光合成能力が高くなる (強光順化)
+強光下で<span class = "fragment highlight-blue">育てば</span>光合成能力が高くなる (強光順化)
 
+![散布図]()
 
-
-+++
-
-**成熟葉ではどうか？**
-
-- 葉の寿命は長い
+<span class = "fragment">**成熟葉ではどうか？**</span>
 
 +++
 
+葉の寿命は長い
 
-- 成熟葉では受光量の低下に応じて速やかにcyt-bfが分解される (Zhu et al. 2016)
-- 成熟葉ではcyt-bfは蓄積されない (Hojka et al. 2014)
+成熟後の光合成機能の柔軟さは**葉の生涯の‘稼ぎ’**に大きな影響を及ぼす
 
 +++
 
-Matureな葉の光合成能力の可逆性について
+成熟葉の順化能力に関する知見
 
-- 成熟葉は強光順化しないのか？
-- 成熟葉ではcyt-bfは蓄積されないのか？
+<class = "column1">
+成熟葉では受光量の低下に応じて速やかにcyt-bfが分解される (Zhu et al. 2016)
+![](decay_Zhu.png)
+</class = "column1">
+
+
+<class = "column2">
+成熟葉ではcyt-bfは新たに合成されない (Hojka et al. 2014)
+![](decay_Zhu.png)
+</class = "column2">
+
+**数日の曇りで光合成能力が不可逆的に低下する？**
+
++++
+
+**Q: 成熟葉は強光順化しないのか？**
+
+- 成熟葉に対して強光 -> 数日の弱光 -> 強光
+- 弱光処理の長さは順化の時間的特性に影響する
 
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
@@ -83,6 +96,8 @@ Matureな葉の光合成能力の可逆性について
 
 エンドウ (*Pisum sativum*, ‘Greenfeast’)
 
+<img src="img/scheme.png" height="350px", width="800px">
+
 +++
 
 試験区
@@ -94,16 +109,14 @@ Matureな葉の光合成能力の可逆性について
 
 測定項目
 
-<small>
+<div font-size="0.7em">
 - 光合成能力
-  - 酸素電極チャンバを使用
-  - CO<sub>2</sub>濃度1%、飽和白色LED光 (2000 µmol m<sup>-2</sup> s<sup>-1</sup>)
+  - CO<sub>2</sub>濃度1%、飽和光 (白色LED, 2000 µmol m<sup>-2</sup> s<sup>-1</sup>) での総酸素発生速度
 - 機能的PSII量
-  - 酸素電極チャンバを使用
-  - アクティブなPSIIが飽和閃光４回ごとに１回酸素発生するという仮定 (Chow et al. 1991)
+  - PSIIが飽和閃光４回ごとに１回酸素発生するという仮定 (Chow et al. 1991)
 - cyto-bf量
   - 光合成能力・機能的PSII量から、経験式 (Dwyer et al. 2012) に従って算出
-</small>
+</div>
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -111,86 +124,99 @@ Matureな葉の光合成能力の可逆性について
 
 +++
 
-結果１: 光合成能力の推移
 
-<img src="img/sample.png" width="800px", height="300px">
 
-- HL: 処理開始から光合成能力が概ね一定 -> 成熟葉
-- LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい
 
-+++
+<img src="fig/pmax-1.png" width="800px", height="300px">
 
-結果１: 光合成能力の推移
-
-<img src="img/sample.png" width="800px", height="300px">
-
-- R2-R8: 再強光処理で上昇 -> **強光順化**
+> - HL: 処理開始から光合成能力が概ね一定 -> 成熟葉
+> - LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい
 
 +++
 
-結果２: cyt-bf量
+<img src="fig/pmax-2.fig" width="800px", height="300px">
 
-<img src="img/sample.png" width="800px", height="300px">
-
-- Pmaxと同様の傾向 -> 機能的PSII量はリミットしていない (Dwyer et al. 2012と同様)
-- **再強光処理により、成熟葉内でもcyt-bfが合成された？**
+> - R2, R4, R8: 再強光処理で上昇 -> **強光順化**
 
 +++
 
-結果２: cyt-bf量 | 合成量 (LLとの差) 
 
-<img src="img/sample.png" width="800px", height="300px">
 
-- R8でやや回復開始が遅れる傾向があるものの、大差なしか？
+<img src="fig/cyf-1.png" width="800px", height="300px">
+
+> - Pmaxと同様の傾向 -> 機能的PSII量はリミットしていない (Dwyer et al. 2012と同様)
+> - **再強光処理により、成熟葉内でもcyt-bfが合成された？**
+
++++
+
+
+
+<img src="fig/recovery-1.png" width="800px", height="300px">
+
+> - R8でやや回復開始が遅れる傾向があるものの、大差なしか？
 
 +++
 
 結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
 
 `\[
-\frac{dP_\textrm{max}}{dt} == P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+\frac{dP_\textrm{max}}{dt} = P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
 \]`
+
++++
+
+結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
 
 `\[
-\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
- \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\frac{dP_\textrm{max}}{dt} = P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
 \]`
 
 
-<img src="img/sample.png" width="800px", height="300px">
 
-- *k*~d~が分解速度、*k*~r~が合成速度、*P*~steady~が順化後の定常値に関係
-- ![](https://raw.githubusercontent.com/stan-dev/logos/master/logo_tm.png) + ![](https://www.r-project.org/logo/Rlogo.png)で統計モデリング
-
-+++
-
-結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
-
-$$
-
-\frac{dP_\textrm{max}}{dt} == P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
-
-$$
-
-<img src="img/sample.png" width="800px", height="300px">
-
-- 悪くはないだろう
-- ほげ
+> - *k*<sub>d</sub>が分解速度、*k*<sub>r</sub>が合成速度、*P*<sub>steady</sub>が順化後の定常値に関係
+> - ![](https://raw.githubusercontent.com/stan-dev/logos/master/logo_tm.png) x ![](https://www.r-project.org/logo/Rlogo.png)で統計モデリング
 
 +++
 
 結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
 
-$$
-\frac{dP_\textrm{max}}{dt} == P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
-$$
+`\[
+\frac{dP_\textrm{max}}{dt} = P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+\]`
 
-<img src="img/sample.png" width="800px", height="300px">
+<div style="position:relative; left:0px; top:10%; width:100%; height:800px">
+  <div style="position:absolute; left:0px; top:0px; width:100%; height:100%">
+    <img src="fig/model-1.png" width="800px", height="300px">
+    <img src="fig/model-2.png" width="800px", height="300px">
+  </div>
+</div>
 
-- 時定数の推定結果
-- 試験区間差あまりなさそう
++++
+
+結果３: 統計モデリングによるcyt-bf合成の時間的特性解析
+
+`\[
+\frac{dP_\textrm{max}}{dt} = P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+\]`
 
 
+
+<img src="fig/kr.png" width="800px", height="300px">
+
+> - 顕著な試験区間差はなさそう (反応の半分完了)
+> - むしろ弱光処理期間が長いほどで回復が速い傾向
+
+
++++
+
+#### 成熟葉で順化なし、とした文献があるけど
+
+<!-- > ‘strong ontogenitc repression of cyt-bf complex biogenesis in fully expanded leaves’---Schöttler et al. (2015) -->
+> ‘switch-off of cytochrome *b*<sub>6</sub>*f* complex biogenesis in mature leaves’---Hojka et al. (2014)
+
+> ‘... all plants suffered from moderate oxidative stress’
+
+![](img/sample.png)
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -205,8 +231,6 @@ $$
 - １週間程度の弱光処理であれば、再上昇時の時間的特性に著しい影響を及ぼすことはない
 @ulend
 
-</div style="position:relative; left:30px">
-
 <!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:60px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 This work was supported by JSPS KAKENHI (Grant Number 17J04736 to K.M.)<br>
 Contact: Keach Murakami (keach.murakami@gmail.com)
@@ -216,9 +240,9 @@ Contact: Keach Murakami (keach.murakami@gmail.com)
 
 ---?color=linear-gradient(to left, #56ccf2, #2f80ed)
 
-### 野望
+### 光合成量の期待値を最大化する
 
-- 知りたいのは？
+- 
 
 - 
 
@@ -229,8 +253,24 @@ Contact: Keach Murakami (keach.murakami@gmail.com)
 
 +++
 
+#### Mutual- & Self-shading
+
+- 若干はある
+- ただし、主茎カット処理区の光合成能力はHL区とおおむね同様
+
 
 +++
+
+#### モデルの妥当性
+
+- どうするか悩ましい
+- ロジスティック曲線も試してみました
+  - おそらく立ち上がりが
+
++++
+
+#### 文献との差？
+
 
 
 <!-- +++?image=img/regulatory_flow.png&position=bottom 100px right 60%&size=70% auto -->
