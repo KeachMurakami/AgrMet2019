@@ -42,7 +42,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-![](fig/light_curve-1.png)
+![](figure/light_curve-1.png)
 
 - 強光下では高い方が有利
 - 弱光下ではあまり重要ではない
@@ -127,14 +127,14 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-<img src="fig/pmax-1.png" width="800px", height="300px">
+<img src="figure/pmax-1.png" width="800px", height="300px">
 
 > - HL: 処理開始から光合成能力が概ね一定 -> 成熟葉
 > - LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい
 
 +++
 
-<img src="fig/pmax-2.fig" width="800px", height="300px">
+<img src="figure/pmax-2.fig" width="800px", height="300px">
 
 > - R2, R4, R8: 再強光処理で上昇 -> **強光順化**
 
@@ -142,7 +142,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-<img src="fig/cyf-1.png" width="800px", height="300px">
+<img src="figure/cyf-1.png" width="800px", height="300px">
 
 > - Pmaxと同様の傾向 -> 機能的PSII量はリミットしていない (Dwyer et al. 2012と同様)
 > - **再強光処理により、成熟葉内でもcyt-bfが合成された？**
@@ -151,7 +151,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-<img src="fig/recovery-1.png" width="800px", height="300px">
+<img src="figure/recovery-1.png" width="800px", height="300px">
 
 > - R8でやや回復開始が遅れる傾向があるものの、大差なしか？
 
@@ -186,8 +186,8 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <div style="position:relative; left:0px; top:10%; width:100%; height:800px">
   <div style="position:absolute; left:0px; top:0px; width:100%; height:100%">
-    <img src="fig/model-1.png" width="800px", height="300px">
-    <img src="fig/model-2.png" width="800px", height="300px">
+    <img src="figure/model-1.png" width="800px", height="300px">
+    <img src="figure/model-2.png" width="800px", height="300px">
   </div>
 </div>
 
@@ -201,7 +201,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-<img src="fig/kr.png" width="800px", height="300px">
+<img src="figure/kr.png" width="800px", height="300px">
 
 > - 顕著な試験区間差はなさそう (反応の半分完了)
 > - むしろ弱光処理期間が長いほどで回復が速い傾向
@@ -216,7 +216,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 > ‘... all plants suffered from moderate oxidative stress’
 
-![](img/sample.png)
+![](img/hojka_growth_condition.png)
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
