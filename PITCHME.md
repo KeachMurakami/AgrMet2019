@@ -13,7 +13,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:600px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 
 日本農業気象学会2019年 (草薙キャンパス, 静岡県立大学)<br>
 This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> `KeachMurakami/AgrMet2019`
@@ -128,13 +128,16 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
+**結果１: 光合成能力の推移**
 
-<img src="figure/pmax-1.png" width="800px", height="300px">
+<img src="figure/pmax-1.png" width="100%">
 
 - <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
 - <small>LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい</small>
 
 +++
+
+**結果１: 光合成能力の推移**
 
 <img src="figure/pmax-2.png" width="100%">
 
@@ -144,14 +147,18 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
+**結果2: Cyt-bfの推移**
+
 <img src="figure/cyt-1.png" width="100%">
 
-- <small>Pmaxと同様の傾向 -> PSII量はリミットしていない (Dwyer et al. 2012と同様)</small>
+- <small>P<sub>max</sub>と同様の傾向 -> PSII量はリミットしていない (Dwyer et al. 2012と同様)</small>
 - <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
 
 +++
 
 
+
+**結果２: cyt-bf量の推移**
 
 <img src="figure/recovery-1.png" width="100%">
 
@@ -159,7 +166,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 +++
 
-**統計モデリングによるcyt-bf合成の時間的特性解析**
+**結果３: 統計モデリングによるcyt-bf合成の時間的特性解析**
 
 <div style="font-size: 0.8em">
 `\[
@@ -169,7 +176,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 +++
 
-**統計モデリングによるcyt-bf合成の時間的特性解析**
+**結果３: 統計モデリングによるcyt-bf合成の時間的特性解析**
 
 <div style="font-size: 0.8em">
 `\[
@@ -239,8 +246,8 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 +++
 
 - 光-光合成曲線は非直角双曲線
-- CO~2~飽和条件
-- 暗呼吸速度はPmaxに比例
+- CO<sub>2</sub>飽和条件
+- 暗呼吸速度はP<sub>max</sub>に比例
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -270,10 +277,10 @@ Contact: Keach Murakami (keach.murakami@gmail.com)
 
 <div style="position:relative; left:25px">
 
-**新出葉・隣接個体からの遮蔽は？**
+**新出葉・隣接個体からの遮蔽は？**  
 
-- **若干はあります**
-- ただし、主茎カット処理区の光合成能力はHL区とおおむね同様
+- <small>**若干はあります**</small>
+- <small>ただし、主茎カット処理区の光合成能力はHL区とおおむね同様</small>
 
 </div>
 
@@ -285,15 +292,25 @@ Contact: Keach Murakami (keach.murakami@gmail.com)
 
 <div style="position:relative; left:25px">
 
-**モデルの妥当性は？**
+**モデルの妥当性は？**  
 
-- **悩ましい**
-- ロジスティック曲線も試してみました
-  - R8の立ち上がりの遅れを反映する狙い
-  - モデルの収束に難あり
-- 1週間程度の弱光であれば、<br>光合成能力の順化の柔軟性を**極端に**損ねることはなさそう
+- <small>**悩ましい**</small>
+- <small>ロジスティック曲線も試してみました</small>
+  - <small>R8の立ち上がりの遅れを反映する狙い</small>
+  - <small>モデルの収束に難あり</small>
+- <small>1週間程度の弱光であれば、<br>光合成能力の順化の柔軟性を**極端に**損ねることはなさそう</small>
 
 </div>
 
++++
+
+<div style="position:relative; left:25px">
+
+**強光ストレスをもう少し具体的に**  
+
+- <small>**cyt-bfのサブユニットのターンオーバー阻害では？**</small>
+    - <small>cyt-bfのPetDというサブユニットは、損傷・回復の顕著なPSIIのD1サブユニットと類似点が多い (Li et al. 2018; Trend Plant Sci)
+    - <small>D1は活性酸素により修復が止まる (Nishiyama et al. ; )</small>
+</div>
 
 
