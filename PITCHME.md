@@ -68,14 +68,14 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 成熟葉の順化能力に関する知見
 
-<div class="column1">
-成熟葉では受光量の低下に応じて速やかにcyt-bfが分解される (Zhu et al. 2016)
-![](decay_Zhu.png)
+<div class="column1" style="font-size: 0.5em">
+受光量の低下で速やかなcyt-bf分解 (Zhu et al. 2016)
+<img src="figure/growth_irad-1.png" height="350px">
 </div class = "column1">
 
 
-<div class = "column2">
-成熟葉ではcyt-bfは新たに合成されず、強光順化しない (Hojka et al. 2014)
+<div class = "column2" style="font-size: 0.5em">
+cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 ![](decay_Zhu.png)
 </div class = "column2">
 
@@ -96,9 +96,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 供試植物
 
-エンドウ (*Pisum sativum*, ‘Greenfeast’)
-
-<img src="img/sample.png" height="350px", width="800px">
+<img src="img/procedure.png" height="500px", width="800px">
 
 +++
 
