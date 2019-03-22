@@ -42,7 +42,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-![](figure/light_curve-1.png)
+
 
 - 強光下では高い方が有利
 - Cytochrome *b*<sub>6</sub>*f*量と正の相関
@@ -51,7 +51,10 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 強光下で<span class = "fragment highlight-blue">育てば</span>光合成能力が高くなる (強光順化)
 
-![散布図]()
+
+
+
+![](figure/growth_irad-1.png)
 
 <span class = "fragment">**成熟葉ではどうか？**</span>
 
@@ -65,16 +68,16 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 成熟葉の順化能力に関する知見
 
-<class = "column1">
+<div class="column1">
 成熟葉では受光量の低下に応じて速やかにcyt-bfが分解される (Zhu et al. 2016)
 ![](decay_Zhu.png)
-</class = "column1">
+</div class = "column1">
 
 
-<class = "column2">
+<div class = "column2">
 成熟葉ではcyt-bfは新たに合成されず、強光順化しない (Hojka et al. 2014)
 ![](decay_Zhu.png)
-</class = "column2">
+</div class = "column2">
 
 **数日の曇りで光合成能力が不可逆的に低下する？**
 
@@ -84,7 +87,6 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 - 成熟葉に対して強光 -> 数日の弱光 -> 強光
 - 弱光処理の長さは順化の時間的特性に影響する
-
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -130,7 +132,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 **結果１: 光合成能力の推移**
 
-<img src="figure/pmax-1.png" width="100%">
+<img src="figure/pmax-1.png" width="700%">
 
 - <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
 - <small>LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい</small>
@@ -139,7 +141,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 **結果１: 光合成能力の推移**
 
-<img src="figure/pmax-2.png" width="100%">
+<img src="figure/pmax-2.png" width="80%">
 
 - <small>R2, R4, R8: 再強光処理で上昇 -> **強光順化**</small>
 
@@ -147,11 +149,11 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-**結果2: Cyt-bfの推移**
+**結果２: cyt-bfの推移**
 
 <img src="figure/cyt-1.png" width="100%">
 
-- <small>P<sub>max</sub>と同様の傾向 -> PSII量はリミットしていない (Dwyer et al. 2012と同様)</small>
+- <small>P<sub>max</sub>と同様の傾向 → PSII量は光合成能力を律速していない (Dwyer et al. 2012と同様)</small>
 - <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
 
 +++
@@ -168,21 +170,21 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 **結果３: 統計モデリングによるcyt-bf合成の時間的特性解析**
 
-<div style="font-size: 0.8em">
+<div style="font-size: 0.5em">
 `\[
-\frac{dP_\textrm{max}}{dt} = P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+\frac{dy}{dt} = y - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
 \]`
-</div style="font-size: 0.8em">
+</div style="font-size>
 
 +++
 
-**結果３: 統計モデリングによるcyt-bf合成の時間的特性解析**
+**結果３: 統計モデリングによるcyt-bf分解・合成特性の解析**
 
-<div style="font-size: 0.8em">
+<div style="font-size: 0.5em">
 `\[
-\frac{dP_\textrm{max}}{dt} = P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+\frac{dy}{dt} = y - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
 \]`
-</div style="font-size: 0.8em">
+</div style="font-size: 0.5em">
 
 
 
@@ -193,7 +195,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 +++
 
-**結果３: 統計モデリングによるcyt-bf合成の時間的特性解析**
+**結果３: 統計モデリングによるcyt-bf分解・合成特性の解析**
 
 <div style="position:relative; left:0px; top:10%; width:100%; height:800px">
   <div style="position:absolute; left:0px; top:0px; width:100%; height:100%">
@@ -206,13 +208,13 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 +++
 
-**結果３: 統計モデリングによるcyt-bf合成の時間的特性解析**
+**結果３: 統計モデリングによるcyt-bf分解・合成特性の解析**
 
-<div style="font-size: 0.8em">
+<div style="font-size: 0.5em">
 `\[
-\frac{dP_\textrm{max}}{dt} = P_\textrm{max} - k_\textrm{d} \cdot P_\textrm{max} + k_\textrm{r} \cdot (P_\textrm{steady} - P_\textrm{max})
+\frac{dy}{dt} = y - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
 \]`
-<div style="font-size: 0.8em">
+<div style="font-size: 0.5em">
 
 
 
@@ -232,6 +234,8 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 ![](img/hojka_growth_condition.png)
 
+ただの強光ストレス？
+
 +++
 
 #### シミュレーション: 毎日コツコツ vs 一気にまとめて
@@ -245,9 +249,9 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 +++
 
-- 光-光合成曲線は非直角双曲線
-- CO<sub>2</sub>飽和条件
-- 暗呼吸速度はP<sub>max</sub>に比例
+- <small>CO<sub>2</sub>飽和条件</small>
+- <small>光-光合成曲線は非直角双曲線 (初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = Pmax/10)</small>
+- <small>暗呼吸速度はP<sub>max</sub>に比例</small>
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
