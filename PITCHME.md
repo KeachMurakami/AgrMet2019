@@ -45,7 +45,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <img src="figure/light_curve-1.png" height="350px">
 
 - 強光下では高い方が有利
-- Cytochrome *b*<sub>6</sub>*f*量と正の相関
+- Cytochrome *b*<sub>6</sub>*f* (cyt-bf) 量と正の相関
 
 +++
 
@@ -70,13 +70,13 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <div class="column1" style="font-size: 0.5em">
 受光量の低下で速やかなcyt-bf分解 (Zhu et al. 2016)
-<img src="figure/growth_irad-1.png" height="350px">
+<img src="img/zhu.png" height="350px">
 </div class = "column1">
 
 
 <div class = "column2" style="font-size: 0.5em">
 cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
-![](decay_Zhu.png)
+<img src="img/hojka.png" height="350px">
 </div class = "column2">
 
 **数日の曇りで光合成能力が不可逆的に低下する？**
@@ -96,13 +96,13 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 供試植物
 
-<img src="img/procedure.png" height="500px", width="800px">
+<img src="img/procedure.png" width="100%">
 
 +++
 
 試験区
 
-<img src="img/scheme.png" height="350px", width="800px">
+<img src="img/scheme.png" width="100%">
 
 
 +++
@@ -115,14 +115,14 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
   - <small>CO<sub>2</sub>濃度1%、飽和光 (白色LED, 2000 µmol m<sup>-2</sup> s<sup>-1</sup>) での総酸素発生速度</small>
 - <small>functionalなPSII量</small>
   - <small>PSIIが飽和閃光４回ごとに１回酸素発生するという仮定 (Chow et al. 1991)</small>
-- <small>cyto-bf量</small>
+- <small>cyt-bf量</small>
   - <small>光合成能力・functionalなPSII量から、経験式 (Dwyer et al. 2012) に従って算出</small>
 
 </div style="position:relative; left:25px">
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
-### 結果および考察
+## Results & Discussion
 
 +++
 
@@ -212,7 +212,7 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 `\[
 \frac{dy}{dt} = y - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
 \]`
-<div style="font-size: 0.5em">
+</div style="font-size: 0.5em">
 
 
 
@@ -254,7 +254,7 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
-### まとめ
+## Summary
 
 +++
 
