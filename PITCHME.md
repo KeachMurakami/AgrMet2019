@@ -130,7 +130,7 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 **結果１: 光合成能力の推移**
 
-<img src="figure/pmax-1.png" width="700%">
+<img src="figure/pmax-1.png" width="80%">
 
 - <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
 - <small>LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい</small>
@@ -147,9 +147,9 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 
 
-**結果２: cyt-bfの推移**
+**結果２: cyt-bf量の推移**
 
-<img src="figure/cyt-1.png" width="100%">
+<img src="figure/cyt-1.png" width="80%">
 
 - <small>P<sub>max</sub>と同様の傾向 → PSII量は光合成能力を律速していない (Dwyer et al. 2012と同様)</small>
 - <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
@@ -160,19 +160,19 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 **結果２: cyt-bf量の推移**
 
-<img src="figure/recovery-1.png" width="100%">
+<img src="figure/recovery-1.png" width="80%">
 
 - <small>R8でやや回復開始が遅れる傾向があるものの、大差なしか？</small>
 
 +++
 
-**結果３: 統計モデリングによるcyt-bf合成の時間的特性解析**
+**結果３: 統計モデリングによるcyt-bf分解・合成特性の解析**
 
 <div style="font-size: 0.5em">
 `\[
 \frac{dy}{dt} = y - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
 \]`
-</div style="font-size>
+</div style="font-size: 0.5em">
 
 +++
 
@@ -197,10 +197,10 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 <div style="position:relative; left:0px; top:10%; width:100%; height:800px">
   <div style="position:absolute; left:0px; top:0px; width:100%; height:100%">
-    <img src="figure/model-1.png" width="100%">
+    <img src="figure/model-1.png" width="80%">
   </div>
   <div class = "fragment" style="position:absolute; left:0px; top:0px; width:100%; height:100%">
-    <img src="figure/model-2.png" width="100%">
+    <img src="figure/model-2.png" width="80%">
   </div>
 </div>
 
@@ -216,7 +216,7 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 
 
-<img src="figure/kr-1.png" width="100%">
+<img src="figure/kr-1.png" width="80%">
 
 - <small>顕著な試験区間差はなさそう (半減期換算で、およそ14--17日の範囲)</small>
 - <small>むしろ弱光処理期間が長いほど回復が速まる？</small>
@@ -230,7 +230,7 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 <small>‘... under high-light conditions, all plants suffered from moderate oxidative stress’</small>
 
-![](img/hojka_growth_condition.png)
+<img src="img/hojka_growth_condition.png" width="80%">
 
 ただの強光ストレス？
 
@@ -238,12 +238,13 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 #### シミュレーション: 毎日コツコツ vs 一気にまとめて
 
+<img src="img/compare_schemes.png" width="80%">
+
 - <small>成熟葉が１枚だけ着いた個体</small>
 - <small>１週間先までの受光量は既知 (４日間曇り → ３日間晴れ)</small>
 - <small>300 µmol m<sup>-2</sup> s<sup>-1</sup> ON/OFF制御の補光設備</small>
 - <small>PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> を閾値に、回復項 (*k*<sub>r</sub>) がありなしで切り替え (中間なし)</small>
 
-![img/compare_schemes.png]
 
 +++
 
