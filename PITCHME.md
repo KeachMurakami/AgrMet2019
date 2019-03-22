@@ -42,7 +42,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-
+<img src="figure/light_curve-1.png" height="350px">
 
 - 強光下では高い方が有利
 - Cytochrome *b*<sub>6</sub>*f*量と正の相関
@@ -54,7 +54,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-![](figure/growth_irad-1.png)
+<img src="figure/growth_irad-1.png" height="350px">
 
 <span class = "fragment">**成熟葉ではどうか？**</span>
 
