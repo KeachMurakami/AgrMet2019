@@ -132,8 +132,8 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 <img src="figure/pmax-1.png" width="80%">
 
-- <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
-- <small>LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい</small>
+>- <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
+>- <small>LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい</small>
 
 +++
 
@@ -141,7 +141,7 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 <img src="figure/pmax-2.png" width="80%">
 
-- <small>R2, R4, R8: 再強光処理で上昇 -> **強光順化**</small>
+>- <small>R2, R4, R8: 再強光処理で上昇 -> **強光順化**</small>
 
 +++
 
@@ -151,8 +151,8 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 <img src="figure/cyt-1.png" width="80%">
 
-- <small>P<sub>max</sub>と同様の傾向 → PSII量は光合成能力を律速していない (Dwyer et al. 2012と同様)</small>
-- <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
+>- <small>P<sub>max</sub>と同様の傾向 → PSII量は光合成能力を律速していない (Dwyer et al. 2012と同様)</small>
+>- <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
 
 +++
 
