@@ -44,12 +44,20 @@
   width: 58%;
 }
 
+.reveal .slides section .left {
+  float: left;
+  width: 42%;
+}
+.reveal .slides section .right {
+  float: right;
+  width: 58%;
+}
 /* image */
 
 .reveal section img {
   border: 0;
   box-shadow: none;
-  margin: 1px;
+  margin: .5px;
 }
 
 

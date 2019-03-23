@@ -31,8 +31,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 <span style="color:orange">村上 貴一<sup>1,2</sup></span>, Wah Soon Chow<sup>1</sup><br>(<sup>1</sup>The Australian National University, <sup>2</sup>山口大学)
 </div style="text-align:right">
 
----?color=linear-gradient(to left, #56ccf2, #2f80ed)
-<!-- .slide: class="center" -->
+---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
 ## Introduction
 
@@ -44,8 +43,10 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <img src="figure/light_curve-1.png" height="350px">
 
-- 強光下では高い方が有利
-- Cytochrome *b*<sub>6</sub>*f* (cyt-bf) 量と正の相関
+@ul
+- <small>強光下では高い方が有利</small>
+- <small><orange>cytochrome *b*<sub>6</sub>*f* (cyt-bf) 量</orange>と正の相関 (Evans 1988など)</small>
+@ulend
 
 +++
 
@@ -66,27 +67,31 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 +++
 
-成熟葉の順化能力に関する知見
+成熟葉の順化に着目した文献
 
 <div class="column1" style="font-size: 0.5em">
-受光量の低下で速やかなcyt-bf分解 (Zhu et al. 2016)
-<img src="img/zhu.png" height="350px">
+受光量の低下に応じて速やかにcyt-bfが分解される
+<img src="img/zhu.png" height="400px">
 </div class = "column1">
 
 
 <div class = "column2" style="font-size: 0.5em">
-cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
-<img src="img/hojka.png" height="350px">
+cyt-bfが新たに合成されず強光順化を示さない
+<img src="img/hojka.png" height="400px">
 </div class = "column2">
 
 **数日の曇りで光合成能力が不可逆的に低下する？**
 
 +++
 
-**Q: 成熟葉は強光順化しないのか？**
+**Q. 成熟葉は強光順化しないのか？**
+<br>
 
-- 成熟葉に対して強光 -> 数日の弱光 -> 強光
-- 弱光処理の長さは順化の時間的特性に影響する
+@ul
+- 予想: 成熟後、徐々に順化柔軟性が失われる
+- 実験: 成熟葉に対して強光 → 数日の弱光 → 再強光
+- 手法: 弱光処理の長さが順化特性に及ぼす影響をモデルで評価
+@ulend
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -96,14 +101,13 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 供試植物
 
-<img src="img/procedure.png" width="100%">
+<img src="img/procedure.png" width="90%">
 
 +++
 
 試験区
 
-<img src="img/scheme.png" width="100%">
-
+<img src="img/scheme.png" width="90%">
 
 +++
 
@@ -132,8 +136,10 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 <img src="figure/pmax-1.png" width="80%">
 
->- <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
->- <small>LL: 処理開始以降、指数関数的減衰 -> １次反応っぽい</small>
+@ul
+- <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
+- <small>LL: 処理開始以降、指数関数的減衰 -> 基質濃度依存的な分解 (１次反応)</small>
+@ulend
 
 +++
 
@@ -141,7 +147,9 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 <img src="figure/pmax-2.png" width="80%">
 
->- <small>R2, R4, R8: 再強光処理で上昇 -> **強光順化**</small>
+@ul
+- <small>R2, R4, R8: 再強光処理で上昇 -> **強光順化**</small>
+@ulend
 
 +++
 
@@ -151,22 +159,29 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 <img src="figure/cyt-1.png" width="80%">
 
->- <small>P<sub>max</sub>と同様の傾向 → PSII量は光合成能力を律速していない (Dwyer et al. 2012と同様)</small>
->- <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
+@ul
+- <small>P<sub>max</sub>と同様 → PSII量は光合成能力を律速しない (Dwyer et al. 2012)</small>
+- <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
+@ulend
+
+<!-- +++ -->
+
+<!-- ```{r recovery} -->
+<!-- list_figure$recovery + -->
+<!--   labs(caption = "Means ± SE, N = 2–8 (Murakami et al., Under review)") -->
+<!-- ``` -->
+
+<!-- **結果２: cyt-bf量の推移** -->
+
+<!-- <img src="figure/recovery-1.png" width="80%"> -->
+
+<!-- @ul -->
+<!-- - <small>R8でやや回復開始が遅れる傾向があるものの、大差なしか？</small> -->
+<!-- @ulend -->
 
 +++
 
-
-
-**結果２: cyt-bf量の推移**
-
-<img src="figure/recovery-1.png" width="80%">
-
-- <small>R8でやや回復開始が遅れる傾向があるものの、大差なしか？</small>
-
-+++
-
-**結果３: 統計モデリングによるcyt-bf分解・合成特性の解析**
+**結果３: cyt-bf分解・合成特性の解析**
 
 <div style="font-size: 0.5em">
 `\[
@@ -176,7 +191,7 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 +++
 
-**結果３: 統計モデリングによるcyt-bf分解・合成特性の解析**
+**結果３: cyt-bf分解・合成特性の解析**
 
 <div style="font-size: 0.5em">
 `\[
@@ -186,14 +201,22 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 
 
-<img src="figure/model-3.png" width="100%">
+<img src="figure/model-3.png" width="80%">
 
-- <small>*k*<sub>d</sub>が分解速度、*k*<sub>r</sub>が合成速度、*P*<sub>steady</sub>が順化後の定常値に関係</small>
+@ul
+- <small>*k*<sub>d</sub>が分解速度、*k*<sub>r</sub>が合成速度、*y*<sub>steady</sub>が定常値に関係</small>
 - <small>`Stan`+`R` で統計モデリング</small>
+@ulend
 
 +++
 
-**結果３: 統計モデリングによるcyt-bf分解・合成特性の解析**
+<!-- **結果３: cyt-bf分解・合成特性の解析 (モデル vs 実測)** -->
+
+<!-- <img src="figure/model-4.png" width="80%"> -->
+
+<!-- +++ -->
+
+**結果３: cyt-bf分解・合成特性の解析**
 
 <div style="position:relative; left:0px; top:10%; width:100%; height:800px">
   <div style="position:absolute; left:0px; top:0px; width:100%; height:100%">
@@ -206,7 +229,7 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 +++
 
-**結果３: 統計モデリングによるcyt-bf分解・合成特性の解析**
+**結果３: cyt-bf分解・合成特性の解析**
 
 <div style="font-size: 0.5em">
 `\[
@@ -216,41 +239,56 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 
 
 
+<div class="left">
 <img src="figure/kr-1.png" width="80%">
+</div class="left">
 
-- <small>顕著な試験区間差はなさそう (半減期換算で、およそ14--17日の範囲)</small>
+<div class="right">
+@ul
+- <small>顕著な試験区間差はなし (半減期換算でおよそ14--17日の範囲)</small>
 - <small>むしろ弱光処理期間が長いほど回復が速まる？</small>
+@ulend
+</div class="right">
 
 +++
 
-#### 「成熟葉で強光順化なし」？
+**<small>‘switch-off of cytochrome *b*<sub>6</sub>*f* complex biogenesis in mature leaves’—Hojka et al. (2014)</small>**
 
-<!-- > ‘strong ontogenitc repression of cyt-bf complex biogenesis in fully expanded leaves’---Schöttler et al. (2015) -->
-<small>‘switch-off of cytochrome *b*<sub>6</sub>*f* complex biogenesis in mature leaves’---Hojka et al. (2014)</small>
+<div class="left">
+<img src="img/hojka_growth_condition.png" width="60%">
+</div class="left">
 
-<small>‘... under high-light conditions, all plants suffered from moderate oxidative stress’</small>
-
-<img src="img/hojka_growth_condition.png" width="80%">
-
-ただの強光ストレス？
+<div class="right">
+@ul
+- <small>‘... under high-light conditions, all plants suffered from moderate oxidative stress’</small>
+- <small>強光阻害でcyt-bf修復が妨げられたのでは...？</small>
+    - <small>cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復されているらしい (Li et al. 2018)</small>
+@ulend
+</div class="right">
 
 +++
 
-#### シミュレーション: 毎日コツコツ vs 一気にまとめて
+**補光シミュレーション: 毎日コツコツ vs 一気にまとめて**
 
+<div class="left">
+<div class="fragment">
 <img src="img/compare_schemes.png" width="80%">
+</div class="fragment">
+</div class="left">
 
+<div class="right" style="font-size: 0.5em; line-height: 0.5">
+<div class="fragment">
 - <small>成熟葉が１枚だけ着いた個体</small>
-- <small>１週間先までの受光量は既知 (４日間曇り → ３日間晴れ)</small>
 - <small>300 µmol m<sup>-2</sup> s<sup>-1</sup> ON/OFF制御の補光設備</small>
 - <small>PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> を閾値に、回復項 (*k*<sub>r</sub>) がありなしで切り替え (中間なし)</small>
-
+- <small>CO<sub>2</sub>飽和条件</small>
+- <small>光-光合成曲線は非直角双曲線を仮定 <small>(初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10)</small></small>
+</div class="fragment">
+</div class="right" style="font-size: 0.5em">
 
 +++
 
-- <small>CO<sub>2</sub>飽和条件</small>
-- <small>光-光合成曲線は非直角双曲線 (初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = Pmax/10)</small>
-- <small>暗呼吸速度はP<sub>max</sub>に比例</small>
+
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -259,16 +297,16 @@ cyt-bfが合成されず強光順化しない (Hojka et al. 2014)
 +++
 
 @ul
-- 成熟した葉の光合成能力は強光順化応答を示さないのか
-    - **示す。**
-- Cytochrome *b*<sub>6</sub>*f*は成熟した葉でも蓄積されるらしい
+- **Q. 成熟した葉の光合成能力は強光順化応答を示さないのか**
+    - **A. 示す**
+- Cytochrome *b*<sub>6</sub>*f*は成熟した葉でも合成されるらしい
 - １週間程度の弱光処理であれば、再上昇時の時間的特性に著しい影響を及ぼすことはなさそう
 - 環境調節の意思決定では近い将来まで考慮するべきでは？
 @ulend
 
 <!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:60px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
-This work was supported by JSPS KAKENHI (Grant Number 17J04736 to K.M.)<br>
-Contact: Keach Murakami (keach.murakami@gmail.com)
+This work was supported by JSPS KAKENHI (Grant Number 17J04736)  
+<small>個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発</small>
 </div>
 
 
@@ -282,8 +320,7 @@ Contact: Keach Murakami (keach.murakami@gmail.com)
 
 **新出葉・隣接個体からの遮蔽は？**  
 
-- <small>**若干はあります**</small>
-- <small>ただし、主茎カット処理区の光合成能力はHL区とおおむね同様</small>
+<small>**若干はあり**。ただし主茎カット区の光合成能力はHL区とおおむね同様</small>
 
 </div>
 
@@ -295,25 +332,24 @@ Contact: Keach Murakami (keach.murakami@gmail.com)
 
 <div style="position:relative; left:25px">
 
-**モデルの妥当性は？**  
+**モデルの妥当性は？**
 
-- <small>**悩ましい**</small>
-- <small>ロジスティック曲線も試してみました</small>
-  - <small>R8の立ち上がりの遅れを反映する狙い</small>
-  - <small>モデルの収束に難あり</small>
-- <small>1週間程度の弱光であれば、<br>光合成能力の順化の柔軟性を**極端に**損ねることはなさそう</small>
+- <small>**悩ましい。**</small>
+    - <small>R8の立ち上がりの遅れを反映する狙いで、ロジスティック曲線も試してみましたが、モデルの収束に難あり</small>
+    - <small>はっきり言えそうなのは、「1週間程度の弱光であれば、光合成能力の順化の柔軟性を**極端に**損ねることはなさそう」ということ</small>
 
 </div>
 
-+++
+<!-- +++ -->
 
-<div style="position:relative; left:25px">
+<!-- <div style="position:relative; left:25px"> -->
 
-**強光ストレスをもう少し具体的に**  
 
-- <small>**cyt-bfのサブユニットのターンオーバー阻害では？**</small>
-    - <small>cyt-bfのPetDというサブユニットは、損傷・回復の顕著なPSIIのD1サブユニットと類似点が多い (Li et al. 2018; Trend Plant Sci)
-    - <small>D1は活性酸素により修復が止まる (Nishiyama et al. ; )</small>
-</div>
+<!-- **強光ストレスをもう少し具体的に**   -->
+
+<!-- - <small>**cyt-bfのサブユニットのターンオーバー阻害では？**</small> -->
+<!--     - <small>cyt-bfのPetDというサブユニットは、損傷・回復の顕著なPSIIのD1サブユニットと類似点が多い (Li et al. 2018; Trend Plant Sci) -->
+<!--     - <small>D1は活性酸素により修復が止まる (Nishiyama et al. ; )</small> -->
+<!-- </div> -->
 
 
