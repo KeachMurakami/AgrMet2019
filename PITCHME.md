@@ -87,11 +87,15 @@ cyt-bfが新たに合成されず強光順化を示さない
 **Q. 成熟葉は強光順化しないのか？**
 <br>
 
+<div style="position:relative; left:25px">
+
 @ul
 - 予想: 成熟後、徐々に順化柔軟性が失われる
 - 実験: 成熟葉に対して強光 → 数日の弱光 → 再強光
 - 手法: 弱光処理の長さが順化特性に及ぼす影響をモデルで評価
 @ulend
+
+</div style="position:relative; left:25px">
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
@@ -134,22 +138,31 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 **結果１: 光合成能力の推移**
 
-<img src="figure/pmax-1.png" width="80%">
+<div class="left">
+<img src="figure/pmax-1.png" width="100%">
+</div class="left">
 
+<div class="right">
 @ul
 - <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
 - <small>LL: 処理開始以降、指数関数的減衰 -> 基質濃度依存的な分解 (１次反応)</small>
 @ulend
+</div class="left">
 
 +++
 
 **結果１: 光合成能力の推移**
 
-<img src="figure/pmax-2.png" width="80%">
+<div class="left">
+>
+<img src="figure/pmax-2.png" width="100%">
+</div class="left">
 
+<div class="right" style="position:relative; left:-25px">
 @ul
 - <small>R2, R4, R8: 再強光処理で上昇 -> **強光順化**</small>
 @ulend
+</div class="right">
 
 +++
 
