@@ -49,6 +49,7 @@
   width: 66%;
 }
 .reveal .slides section .right {
+  float: left;
   width: 33%;
 }
 /* image */
