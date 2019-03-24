@@ -60,7 +60,7 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 
 
-<p style="text-align:center;"><img src="figure/growth_irad-1.png" height="350px"></p>
+<p style="text-align:center;"><img src="figure/growth_irad-1.png" height="60%"></p>
 
 <p class = "fragment" style="text-align:center;">展開を終えた葉 = **成熟葉**ではどうか？</p>
 
@@ -68,7 +68,7 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 葉の寿命は長い
 
-成熟後の光合成機能の柔軟さは**葉の生涯の‘稼ぎ’**に大きな影響を及ぼす
+成熟葉の柔軟な強光順化は**葉の生涯の‘稼ぎ’**に大きな影響を及ぼすのでは？
 
 +++
 
@@ -81,11 +81,11 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 
 <div class = "column2" style="font-size: 0.5em">
-cyt-bfが新たに合成されず強光順化を示さない
+cyt-bfが新たに合成されず強光順化できない
 <img src="img/hojka.png" height="400px">
 </div class = "column2">
 
-<p style="text-align:center;"><orange>**数日の曇りで光合成能力が不可逆的に低下する？**</orange></p>
+<p style="text-align:center;"><orange>数日の曇りで光合成能力が不可逆的に低下する？</orange></p>
 
 +++
 
@@ -147,8 +147,8 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 <div class="right">
 @ul
-- <small>HL: 処理開始から光合成能力が概ね一定 → 成熟葉</small>
-- <small>LL: 処理開始以降、指数関数的減衰 → 基質濃度依存的な分解 (１次反応)</small>
+- <small>HL:<br>処理開始から光合成能力が概ね一定<br> → 成熟葉</small>
+- <small>LL:<br>処理開始以降、指数関数的減衰<br> → 濃度依存的な分解 (一次反応)</small>
 @ulend
 </div class="left">
 
@@ -162,7 +162,7 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 <div class="right">
 @ul
-- <small>R2, R4, R8: 再強光処理で上昇 → **強光順化**</small>
+- <small>R2, R4, R8: 再強光処理で上昇 <br>→ **強光順化**</small>
 @ulend
 </div class="right">
 
@@ -178,8 +178,8 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 <div class="right">
 @ul
-- <small>P<sub>max</sub>と同様の傾向<br> → PSII量は光合成能力を律速しない (Dwyer et al. 2012)</small>
-- <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
+- <small>P<sub>max</sub>と同様の傾向<br> → PSII量は光合成能力を律速しない <small>(Dwyer et al. 2012; JXB)</small></small>
+- <small>**成熟葉内でもcyt-bfが合成された？**</small>
 @ulend
 </div class="right">
 
