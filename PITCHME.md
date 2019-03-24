@@ -41,21 +41,25 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-<img src="figure/light_curve-1.png" height="400px">
+<div class="left">
+<img src="figure/light_curve-1.png" height="80%">
+</div class="left">
 
+<div class="right">
 @ul
 - <small>強光下では高い方が有利</small>
 - <small><orange>cytochrome *b*<sub>6</sub>*f* (cyt-bf) 量</orange>と正の相関 (Evans 1988など)</small>
 @ulend
+</div class="left">
 
 +++
 
-強光下で<span class = "fragment highlight-blue">育てば</span>光合成能力が高くなる (強光順化)
+強光下で<span class="fragment highlight-blue">育てば</span>光合成能力が高くなる (**強光順化**)
 
 
 
 
-<img src="figure/growth_irad-1.png" height="350px">
+<p style="text-align:center;"><img src="figure/growth_irad-1.png" height="350px"></p>
 
 <span class = "fragment">展開を終えた葉 = **成熟葉**ではどうか？</span>
 
@@ -264,19 +268,13 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 +++
 
-**<small>‘switch-off of cytochrome *b*<sub>6</sub>*f* complex biogenesis in mature leaves’—Hojka et al. (2014)</small>**
+**Ontogenetic repression of cyt-bf biogenesis in mature leaves—Hojka et al. (2014), Schöttler et al. (2015)**
 
-<div class="left">
-<img src="img/hojka_growth_condition.png" width="100%">
-</div class="left">
-
-<div class="right">
 @ul
-- <small>‘... under high-light conditions, all plants suffered from moderate oxidative stress’</small>
-- <small>強光阻害でcyt-bf修復が妨げられたのでは...？</small>
-    - <small>cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復されているらしい (Li et al. 2018)</small>
+- ‘... under high-light conditions, all plants suffered from moderate oxidative stress’
+- **強光阻害でcyt-bf修復が妨げられただけでは...？**
+    - cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復されているらしい (電子伝達流量コントローラ？) <small>(Li et al. 2018, *Trend Plant Sci*)</small>
 @ulend
-</div class="right">
 
 
 
@@ -291,13 +289,13 @@ cyt-bfが新たに合成されず強光順化を示さない
 </div class="fragment">
 </div class="left">
 
-<div class="right" style="line-height: 0.75">
+<div class="right" style="line-height: 0.9">
 <div class="fragment">
-- <small>成熟葉が１枚だけ着いた個体</small>
-- <small>300 µmol m<sup>-2</sup> s<sup>-1</sup> ON/OFF制御の補光設備</small>
-- <small>PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> を閾値に、回復項 (*k*<sub>r</sub>) がありなしで切り替え (中間なし)</small>
-- <small>CO<sub>2</sub>飽和条件</small>
-- <small>光-光合成曲線は非直角双曲線を仮定 <small>(初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10)</small></small>
+- <small>個体に成熟葉が１枚だけ</small>
+- <small>ON/OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備</small>
+- <small>PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり</small>
+- <small>非直角双曲線型の光ー光合成曲線 <small>(初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10)</small></small>
+- <small>常にCO<sub>2</sub>飽和条件</small>
 </div class="fragment">
 </div class="right" style="font-size: 0.5em">
 
