@@ -179,7 +179,7 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 <div class="right">
 @ul
-- <small>P<sub>max</sub>と同様 → PSII量は光合成能力を律速しない (Dwyer et al. 2012)</small>
+- <small>P<sub>max</sub>と同様の傾向<br> → PSII量は光合成能力を律速しない (Dwyer et al. 2012)</small>
 - <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
 @ulend
 </div class="right">
@@ -211,17 +211,19 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 
 
-<div class="fragment">
-<div class="left">
-<img src="figure/model-3.png" width="100%">
-</div class="left">
 
-<div class="right">
+
+<div class="fragment">
+<div class="column1">
+<img src="figure/model_sample-1.png" width="100%">
+</div>
+
+<div class="column2">
 @ul
 - <small>*k*<sub>d</sub>が分解速度、*k*<sub>r</sub>が合成速度、*y*<sub>steady</sub>が定常値に関係</small>
 - <small>`Stan`+`R` で統計モデリング</small>
 @ulend
-</div class="right">
+</div>
 </div class="fragment">
 
 +++
@@ -261,8 +263,8 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 <div class="right">
 @ul
-- <small>顕著な試験区間差はなし (半減期換算でおよそ14–17日の範囲)</small>
-- <small>むしろ弱光処理期間が長いほど回復が速まる？</small>
+- <small>顕著な試験区間差はなし<br>(半減期換算でおよそ14–17日の範囲)</small>
+- <small>弱光処理期間が長いほど<br>むしろ回復が速い？</small>
 @ulend
 </div class="right">
 
