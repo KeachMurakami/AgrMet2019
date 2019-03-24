@@ -144,8 +144,8 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 <div class="right">
 @ul
-- <small>HL: 処理開始から光合成能力が概ね一定 -> 成熟葉</small>
-- <small>LL: 処理開始以降、指数関数的減衰 -> 基質濃度依存的な分解 (１次反応)</small>
+- <small>HL: 処理開始から光合成能力が概ね一定 → 成熟葉</small>
+- <small>LL: 処理開始以降、指数関数的減衰 → 基質濃度依存的な分解 (１次反応)</small>
 @ulend
 </div class="left">
 
@@ -154,13 +154,12 @@ cyt-bfが新たに合成されず強光順化を示さない
 **結果１: 光合成能力の推移**
 
 <div class="left">
->
 <img src="figure/pmax-2.png" width="100%">
 </div class="left">
 
-<div class="right" style="position:relative; left:-25px">
+<div class="right">
 @ul
-- <small>R2, R4, R8: 再強光処理で上昇 -> **強光順化**</small>
+- <small>R2, R4, R8: 再強光処理で上昇 → **強光順化**</small>
 @ulend
 </div class="right">
 
@@ -170,12 +169,16 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 **結果２: cyt-bf量の推移**
 
-<img src="figure/cyt-1.png" width="80%">
+<div class="left">
+<img src="figure/cyt-1.png" width="100%">
+</div class="left">
 
+<div class="right">
 @ul
 - <small>P<sub>max</sub>と同様 → PSII量は光合成能力を律速しない (Dwyer et al. 2012)</small>
 - <small>**再強光処理により、成熟葉内でもcyt-bfが合成された？**</small>
 @ulend
+</div class="right">
 
 <!-- +++ -->
 
@@ -202,24 +205,20 @@ cyt-bfが新たに合成されず強光順化を示さない
 \]`
 </div style="font-size: 0.5em">
 
-+++
-
-**結果３: cyt-bf分解・合成特性の解析**
-
-<div style="font-size: 0.5em">
-`\[
-\frac{dy}{dt} = y - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
-\]`
-</div style="font-size: 0.5em">
 
 
+<div class="fragment">
+<div class="left">
+<img src="figure/model-3.png" width="100%">
+</div class="left">
 
-<img src="figure/model-3.png" width="80%">
-
+<div class="right">
 @ul
 - <small>*k*<sub>d</sub>が分解速度、*k*<sub>r</sub>が合成速度、*y*<sub>steady</sub>が定常値に関係</small>
 - <small>`Stan`+`R` で統計モデリング</small>
 @ulend
+</div class="right">
+</div class="fragment">
 
 +++
 
@@ -253,12 +252,12 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 
 <div class="left">
-<img src="figure/kr-1.png" width="80%">
+<img src="figure/kr-1.png" width="100%">
 </div class="left">
 
 <div class="right">
 @ul
-- <small>顕著な試験区間差はなし (半減期換算でおよそ14--17日の範囲)</small>
+- <small>顕著な試験区間差はなし (半減期換算でおよそ14–17日の範囲)</small>
 - <small>むしろ弱光処理期間が長いほど回復が速まる？</small>
 @ulend
 </div class="right">
@@ -268,7 +267,7 @@ cyt-bfが新たに合成されず強光順化を示さない
 **<small>‘switch-off of cytochrome *b*<sub>6</sub>*f* complex biogenesis in mature leaves’—Hojka et al. (2014)</small>**
 
 <div class="left">
-<img src="img/hojka_growth_condition.png" width="60%">
+<img src="img/hojka_growth_condition.png" width="100%">
 </div class="left">
 
 <div class="right">
@@ -285,11 +284,11 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 <div class="left">
 <div class="fragment">
-<img src="img/compare_schemes.png" width="80%">
+<img src="img/compare_schemes.png" width="100%">
 </div class="fragment">
 </div class="left">
 
-<div class="right" style="font-size: 0.5em; line-height: 0.5">
+<div class="right" style="line-height: 0.5">
 <div class="fragment">
 - <small>成熟葉が１枚だけ着いた個体</small>
 - <small>300 µmol m<sup>-2</sup> s<sup>-1</sup> ON/OFF制御の補光設備</small>
