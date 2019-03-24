@@ -275,7 +275,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 +++
 
-<small>Ontogenetic repression of cyt-bf biogenesis in mature leaves—Hojka et al. (2014), Schöttler et al. (2015)</small>
+**Ontogenetic repression of cyt-bf biogenesis—Hojka et al. (2014; Plant Physiol)**
 
 <div style="position:relative; left:10px; font-size: 0.7em">
 <br>
@@ -283,7 +283,7 @@ cyt-bfが新たに合成されず強光順化できない
 - ‘... under high-light conditions, all plants suffered from moderate oxidative stress’
 - **強光阻害でcyt-bf修復が妨げられただけでは...？**
     - cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復される
-    - 電子伝達流量コントロール (Li et al. 2018; Trend Plant Sci)
+    - 電子伝達流量コントローラ？ (Li et al. 2018; Trend Plant Sci)
 @ulend
 </div style="position:relative; left:10px">
 
@@ -294,21 +294,21 @@ cyt-bfが新たに合成されず強光順化できない
 
 **補光シミュレーション: コツコツ vs まとめて**
 
-<div class="left">
+<div class="column_left40">
 <div class="fragment">
 <img src="img/compare_schemes.png" width="100%">
 </div class="fragment">
-</div class="left">
+</div class="">
 
-<div class="right" style="line-height: 0.9">
+<div class="column_right60" style="line-height: 1.2; font-size: 0.5em">
 <div class="fragment">
-- <small>個体に成熟葉が１枚だけ</small>
-- <small>ON/OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備</small>
-- <small>PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり</small>
-- <small>非直角双曲線型の光ー光合成曲線 <small>(初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10)</small></small>
-- <small>常にCO<sub>2</sub>飽和条件</small>
+- 個体に成熟葉が１枚だけ
+- ON/OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備
+- PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり
+- 非直角双曲線型の光ー光合成曲線 <small>(初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10)</small>
+- 常にCO<sub>2</sub>飽和条件
 </div class="fragment">
-</div class="right" style="font-size: 0.5em">
+</div class="column_right60" style="font-size: 0.5em">
 
 +++
 
@@ -329,11 +329,12 @@ cyt-bfが新たに合成されず強光順化できない
 <div style="position:relative; left:10px">
 
 @ul
-- **Q. 成熟した葉の光合成能力は強光順化応答を示さないのか**
+- **Q. 成熟葉の光合成能力は強光順化応答を示さないのか**
     - **A. 示す**
-- Cytochrome *b*<sub>6</sub>*f*は成熟した葉でも合成されるらしい
-- １週間程度の弱光処理であれば、再上昇時の時間的特性に著しい影響を及ぼすことはなさそう
-- 環境調節の意思決定では近い将来まで考慮するべきでは？
+<br>
+- cytochrome *b*<sub>6</sub>*f*は成熟葉内でも合成されるらしい
+- １週間程度の弱光処理であれば、再順化時の時間的特性に著しい影響を及ぼすことはなさそう
+- 順化のモデル化は近い未来の気象に合わせた環境調節を可能にしうる
 @ulend
 </div style="position:relative; left:10px">
 

@@ -37,11 +37,12 @@
 
 .reveal .slides section .column_left40 {
   float: left;
-  width: 42%;
+  width: 40%;
 }
 .reveal .slides section .column_right60 {
-  float: right;
-  width: 58%;
+  float: left;
+  width: 60%;
+  margin-left: -2%;
 }
 
 .reveal .slides section .left {
