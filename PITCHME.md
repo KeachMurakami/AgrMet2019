@@ -13,7 +13,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:800px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 
 日本農業気象学会2019年 (草薙キャンパス, 静岡県立大学)<br>
 This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> `KeachMurakami/AgrMet2019`
@@ -94,10 +94,10 @@ cyt-bfが新たに合成されず強光順化を示さない
 @ul
 - 予想: 成熟後、徐々に順化柔軟性が失われる
 - 実験: 成熟葉に対して強光 → 数日の弱光 → 再強光
-- 手法: 弱光日数が回復過程に及ぼす影響のモデル化
+- 手法: 弱光日数が回復過程に及ぼす影響をモデル化
 @ulend
 
----?color=linear-gradient(to left, #88ccf2, #aae7ed)
+---?color=linear-gradient(to left, #aaddf2, #aae7ed)
 
 ## Materials & Methods
 
