@@ -13,10 +13,10 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 
 日本農業気象学会2019年 (草薙キャンパス, 静岡県立大学)<br>
-This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> `KeachMurakami/AgrMet2019`
+This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `KeachMurakami/AgrMet2019`
 </div>
 
 <br>
@@ -46,6 +46,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 </div class="left">
 
 <div class="right">
+<br>
 @ul
 - <small>強光下では高い方が有利</small>
 - <small><orange>cytochrome *b*<sub>6</sub>*f* (cyt-bf) 量</orange>と正の相関 (Evans 1988など)</small>
