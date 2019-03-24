@@ -42,7 +42,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 <div class="left">
-<img src="figure/light_curve-1.png" height="80%">
+<img src="figure/light_curve-1.png" width="100%">
 </div class="left">
 
 <div class="right">
@@ -61,7 +61,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <p style="text-align:center;"><img src="figure/growth_irad-1.png" height="350px"></p>
 
-<span class = "fragment">展開を終えた葉 = **成熟葉**ではどうか？</span>
+<span class = "fragment" style="text-align:center;">展開を終えた葉 = **成熟葉**ではどうか？</span>
 
 +++
 
@@ -84,22 +84,18 @@ cyt-bfが新たに合成されず強光順化を示さない
 <img src="img/hojka.png" height="400px">
 </div class = "column2">
 
-**数日の曇りで光合成能力が不可逆的に低下する？**
+<p style="text-align:center;">**数日の曇りで光合成能力が不可逆的に低下する？**</p>
 
 +++
 
 **Q. 成熟葉は強光順化しないのか？**
 <br>
 
-<div style="position:relative; left:25px">
-
 @ul
 - 予想: 成熟後、徐々に順化柔軟性が失われる
 - 実験: 成熟葉に対して強光 → 数日の弱光 → 再強光
-- 手法: 弱光処理の長さが順化特性に及ぼす影響をモデルで評価
+- 手法: 弱光日数が回復過程に及ぼす影響のモデル化
 @ulend
-
-</div style="position:relative; left:25px">
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 
