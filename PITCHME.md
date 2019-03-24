@@ -42,10 +42,11 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 
 <div class="left">
-<img src="figure/light_curve-1.png" width="100%">
+<img src="figure/light_curve-1.png" width="110%">
 </div class="left">
 
 <div class="right">
+<br>
 <br>
 @ul
 - <small>強光下では高い方が有利</small>
@@ -124,7 +125,7 @@ cyt-bfが新たに合成されず強光順化できない
 測定項目
 
 <div style="position:relative; left:10px">
-
+<br>
 - <small>光合成能力</small>
   - <small>CO<sub>2</sub>濃度1%、飽和光 (白色LED, 2000 µmol m<sup>-2</sup> s<sup>-1</sup>) での総酸素発生速度</small>
 - <small>functionalなPSII量</small>
@@ -330,7 +331,7 @@ cyt-bfが新たに合成されず強光順化できない
 @ulend
 </div style="position:relative; left:10px">
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:70px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 This work was supported by JSPS KAKENHI (Grant Number 17J04736)  
 ‘個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発’
 </div>
