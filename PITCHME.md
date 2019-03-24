@@ -60,7 +60,7 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 
 
-<p style="text-align:center;"><img src="figure/growth_irad-1.png" height="60%"></p>
+<p style="text-align:center;"><img src="figure/growth_irad-1.png" height="400px"></p>
 
 <p class = "fragment" style="text-align:center;">展開を終えた葉 = **成熟葉**ではどうか？</p>
 
@@ -85,13 +85,16 @@ cyt-bfが新たに合成されず強光順化できない
 <img src="img/hojka.png" height="400px">
 </div class = "column2">
 
-<p style="text-align:center;"><orange>数日の曇りで光合成能力が不可逆的に低下する？</orange></p>
+<p class="fragment" style="text-align:center;"><orange>数日の曇りで光合成能力が不可逆的に低下する？</orange></p>
 
 +++
 
+<br>
+<br>
 **Q. 成熟葉は強光順化しないのか？**
 <br>
-
+<br>
+<br>
 <div style="position:relative; left:10px">
 @ul
 - 予想: 成熟後、徐々に順化柔軟性が失われる
@@ -162,7 +165,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 <div class="column2">
 @ul
-- <small>R2, R4, R8: 再強光処理で上昇 <br>→ **強光順化**</small>
+- <small>R2, R4, R8:<br>再強光処理で上昇 <br>→ **強光順化**</small>
 @ulend
 </div class="right">
 
@@ -316,6 +319,8 @@ cyt-bfが新たに合成されず強光順化できない
 
 +++
 
+<div style="position:relative; left:10px">
+
 @ul
 - **Q. 成熟した葉の光合成能力は強光順化応答を示さないのか**
     - **A. 示す**
@@ -323,10 +328,11 @@ cyt-bfが新たに合成されず強光順化できない
 - １週間程度の弱光処理であれば、再上昇時の時間的特性に著しい影響を及ぼすことはなさそう
 - 環境調節の意思決定では近い将来まで考慮するべきでは？
 @ulend
+</div style="position:relative; left:10px">
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:60px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:80px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 This work was supported by JSPS KAKENHI (Grant Number 17J04736)  
-<small>個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発</small>
+‘個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発’
 </div>
 
 
@@ -340,7 +346,7 @@ This work was supported by JSPS KAKENHI (Grant Number 17J04736)
 
 **新出葉・隣接個体からの遮蔽は？**  
 
-<small>**若干はあり**。ただし主茎カット区の光合成能力はHL区とおおむね同様</small>
+<small>**若干はあり**。ただし主茎カット区の光合成能力がHL区と概ね同様なのでマイナー。</small>
 
 </div>
 
@@ -350,13 +356,15 @@ This work was supported by JSPS KAKENHI (Grant Number 17J04736)
 
 +++
 
-<div style="position:relative; left:10px">
 
 **モデルの妥当性は？**
 
-- <small>**悩ましい。**</small>
-    - <small>R8の立ち上がりの遅れを反映する狙いで、ロジスティック曲線も試してみましたが、モデルの収束に難あり</small>
-    - <small>はっきり言えそうなのは、「1週間程度の弱光であれば、光合成能力の順化の柔軟性を**極端に**損ねることはなさそう」ということ</small>
+<div style="position:relative; left:10px; font-size: 0.6em">
+- <small>**悩ましい。**</small>  
+    - <small>R8の回復開始の遅れを反映する狙いで、ロジスティック曲線も試したが、<br>統計モデルの収束に難あり。</small>
+    - 一般化するなら完全に再順化能を失うまで弱光日数を伸ばす必要がある。
+        - R17までは試してみたところ、ややヘタれるものの強光順化可能。
+    - <small>はっきり言えそうなのは、<br>「1週間程度の弱光であれば、光合成能力の順化の柔軟性を**極端に**損ねることはなさそう」ということ</small>
 
 </div>
 
