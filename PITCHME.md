@@ -278,9 +278,12 @@ cyt-bfが新たに合成されず強光順化を示さない
 @ulend
 </div class="right">
 
+
+
+
 +++
 
-**補光シミュレーション: 毎日コツコツ vs 一気にまとめて**
+**補光シミュレーション: コツコツ vs まとめて**
 
 <div class="left">
 <div class="fragment">
@@ -288,7 +291,7 @@ cyt-bfが新たに合成されず強光順化を示さない
 </div class="fragment">
 </div class="left">
 
-<div class="right" style="line-height: 0.5">
+<div class="right" style="line-height: 0.75">
 <div class="fragment">
 - <small>成熟葉が１枚だけ着いた個体</small>
 - <small>300 µmol m<sup>-2</sup> s<sup>-1</sup> ON/OFF制御の補光設備</small>
@@ -300,7 +303,13 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 +++
 
+<div class="column1">
+<img src="figure/simu-1.png" width="100%">
+</div class="column1">
 
+<div class="column2">
+<img src="figure/simu-2.png" width="100%">
+</div class="column2">
 
 ---?color=linear-gradient(to left, #88ccf2, #aae7ed)
 

@@ -47,6 +47,7 @@
 .reveal .slides section .left {
   float: left;
   width: 60%;
+  margin-left: -5%;
 }
 .reveal .slides section .right {
   float: left;
