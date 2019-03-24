@@ -31,7 +31,7 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 <span style="color:orange">村上 貴一<sup>1,2</sup></span>, Wah Soon Chow<sup>1</sup><br>(<sup>1</sup>The Australian National University, <sup>2</sup>山口大学)
 </div style="text-align:right">
 
----?color=linear-gradient(to left, #88ccf2, #aae7ed)
+---?color=linear-gradient(to left, #ccddee, #aabbcc)
 
 ## Introduction
 
@@ -135,7 +135,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 </div style="position:relative; left:25px">
 
----?color=linear-gradient(to left, #88ccf2, #aae7ed)
+---?color=linear-gradient(to left, #ccddee, #aabbcc)
 
 ## Results & Discussion
 
@@ -320,7 +320,7 @@ cyt-bfが新たに合成されず強光順化できない
 <img src="figure/simu-2.png" width="100%">
 </div class="column2">
 
----?color=linear-gradient(to left, #88ccf2, #aae7ed)
+---?color=linear-gradient(to left, #ccddee, #aabbcc)
 
 ## Summary
 
@@ -337,13 +337,13 @@ cyt-bfが新たに合成されず強光順化できない
 @ulend
 </div style="position:relative; left:10px">
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:70px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:60px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 This work was supported by JSPS KAKENHI (Grant Number 17J04736)  
 ‘個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発’
 </div>
 
 
----?color=linear-gradient(to left, #56ccf2, #2f80ed)
+---?color=linear-gradient(to left, #6688ee, #4466cc)
 
 ### Appendix
 
