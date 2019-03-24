@@ -41,7 +41,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 
 
-<img src="figure/light_curve-1.png" height="350px">
+<img src="figure/light_curve-1.png" height="400px">
 
 @ul
 - <small>強光下では高い方が有利</small>
@@ -57,7 +57,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <img src="figure/growth_irad-1.png" height="350px">
 
-<span class = "fragment">**成熟葉ではどうか？**</span>
+<span class = "fragment">展開を終えた葉 = **成熟葉**ではどうか？</span>
 
 +++
 
