@@ -85,20 +85,22 @@ cyt-bfが新たに合成されず強光順化を示さない
 <img src="img/hojka.png" height="400px">
 </div class = "column2">
 
-<p style="text-align:center;">**数日の曇りで光合成能力が不可逆的に低下する？**</p>
+<p style="text-align:center;"><orange>**数日の曇りで光合成能力が不可逆的に低下する？**</orange></p>
 
 +++
 
 **Q. 成熟葉は強光順化しないのか？**
 <br>
 
+<div style="position:relative; left:10px">
 @ul
 - 予想: 成熟後、徐々に順化柔軟性が失われる
 - 実験: 成熟葉に対して強光 → 数日の弱光 → 再強光
 - 手法: 弱光日数が回復過程に及ぼす影響をモデル化
 @ulend
+</div>
 
----?color=linear-gradient(to left, #aaddf2, #aae7ed)
+---?color=linear-gradient(to left, #ccddee, #aabbcc)
 
 ## Materials & Methods
 
@@ -118,14 +120,14 @@ cyt-bfが新たに合成されず強光順化を示さない
 
 測定項目
 
-<div style="position:relative; left:25px">
+<div style="position:relative; left:10px">
 
 - <small>光合成能力</small>
   - <small>CO<sub>2</sub>濃度1%、飽和光 (白色LED, 2000 µmol m<sup>-2</sup> s<sup>-1</sup>) での総酸素発生速度</small>
 - <small>functionalなPSII量</small>
-  - <small>PSIIが飽和閃光４回ごとに１回酸素発生するという仮定 (Chow et al. 1991)</small>
+  - <small>PSIIが飽和閃光４回ごとに１回酸素発生するという仮定 <small>(Chow et al. 1991; Aust J Plant Physiol)</small></small>
 - <small>cyt-bf量</small>
-  - <small>光合成能力・functionalなPSII量から、経験式 (Dwyer et al. 2012) に従って算出</small>
+  - <small>光合成能力・functionalなPSII量から、経験式に従って算出 <small>(Dwyer et al. 2012; JXB)</small></small>
 
 </div style="position:relative; left:25px">
 
@@ -334,7 +336,7 @@ This work was supported by JSPS KAKENHI (Grant Number 17J04736)
 
 +++
 
-<div style="position:relative; left:25px">
+<div style="position:relative; left:10px">
 
 **新出葉・隣接個体からの遮蔽は？**  
 
@@ -348,7 +350,7 @@ This work was supported by JSPS KAKENHI (Grant Number 17J04736)
 
 +++
 
-<div style="position:relative; left:25px">
+<div style="position:relative; left:10px">
 
 **モデルの妥当性は？**
 
