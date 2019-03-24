@@ -141,11 +141,11 @@ cyt-bfが新たに合成されず強光順化できない
 
 **結果１: 光合成能力の推移**
 
-<div class="left">
+<div class="column1">
 <img src="figure/pmax-1.png" width="100%">
 </div class="left">
 
-<div class="right">
+<div class="column2">
 @ul
 - <small>HL:<br>処理開始から光合成能力が概ね一定<br> → 成熟葉</small>
 - <small>LL:<br>処理開始以降、指数関数的減衰<br> → 濃度依存的な分解 (一次反応)</small>
@@ -156,11 +156,11 @@ cyt-bfが新たに合成されず強光順化できない
 
 **結果１: 光合成能力の推移**
 
-<div class="left">
+<div class="column1">
 <img src="figure/pmax-2.png" width="100%">
 </div class="left">
 
-<div class="right">
+<div class="column2">
 @ul
 - <small>R2, R4, R8: 再強光処理で上昇 <br>→ **強光順化**</small>
 @ulend
@@ -172,11 +172,11 @@ cyt-bfが新たに合成されず強光順化できない
 
 **結果２: cyt-bf量の推移**
 
-<div class="left">
+<div class="column1">
 <img src="figure/cyt-1.png" width="100%">
 </div class="left">
 
-<div class="right">
+<div class="column2">
 @ul
 - <small>P<sub>max</sub>と同様の傾向<br> → PSII量は光合成能力を律速しない <small>(Dwyer et al. 2012; JXB)</small></small>
 - <small>**成熟葉内でもcyt-bfが合成された？**</small>
@@ -214,7 +214,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 <div class="fragment">
 <div class="column1">
-<img src="figure/model_sample-1.png" width="100%">
+<img src="figure/model-3.png" width="100%">
 </div>
 
 <div class="column2">
