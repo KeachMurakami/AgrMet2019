@@ -150,8 +150,9 @@ cyt-bfが新たに合成されず強光順化できない
 </div class="left">
 
 <div class="column2">
+<br>
 @ul
-- <small>HL:<br>処理開始から光合成能力が概ね一定<br> → 成熟葉</small>
+- <small>HL:<br>処理開始から光合成能力が概ね一定<br> → 葉は成熟ずみ</small>
 - <small>LL:<br>処理開始以降、指数関数的減衰<br> → 濃度依存的な分解 (一次反応)</small>
 @ulend
 </div class="left">
@@ -165,6 +166,7 @@ cyt-bfが新たに合成されず強光順化できない
 </div class="left">
 
 <div class="column2">
+<br>
 @ul
 - <small>R2, R4, R8:<br>再強光処理で上昇 <br>→ **強光順化**</small>
 @ulend
