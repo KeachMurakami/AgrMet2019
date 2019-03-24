@@ -13,7 +13,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:600px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:800px; height:80px; padding:10px; font-size:0.7em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 
 日本農業気象学会2019年 (草薙キャンパス, 静岡県立大学)<br>
 This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> `KeachMurakami/AgrMet2019`
@@ -61,7 +61,7 @@ This slide is available on <!--html_preserve-->@fa[github]<!--/html_preserve--> 
 
 <p style="text-align:center;"><img src="figure/growth_irad-1.png" height="350px"></p>
 
-<span class = "fragment" style="text-align:center;">展開を終えた葉 = **成熟葉**ではどうか？</span>
+<p class = "fragment" style="text-align:center;">展開を終えた葉 = **成熟葉**ではどうか？</p>
 
 +++
 
