@@ -275,13 +275,17 @@ cyt-bfが新たに合成されず強光順化できない
 
 +++
 
-**Ontogenetic repression of cyt-bf biogenesis in mature leaves—Hojka et al. (2014), Schöttler et al. (2015)**
+<small>Ontogenetic repression of cyt-bf biogenesis in mature leaves—Hojka et al. (2014), Schöttler et al. (2015)</small>
 
+<div style="position:relative; left:10px; font-size: 0.7em">
+<br>
 @ul
 - ‘... under high-light conditions, all plants suffered from moderate oxidative stress’
 - **強光阻害でcyt-bf修復が妨げられただけでは...？**
-    - cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復されているらしい (電子伝達流量コントローラ？) <small>(Li et al. 2018, *Trend Plant Sci*)</small>
+    - cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復される
+    - 電子伝達流量コントロール (Li et al. 2018; Trend Plant Sci)
 @ulend
+</div style="position:relative; left:10px">
 
 
 
@@ -364,11 +368,12 @@ This work was supported by JSPS KAKENHI (Grant Number 17J04736)
 
 <div style="position:relative; left:10px; font-size: 0.6em">
 
-- 悩ましい。
-    - R8の回復開始の遅れを反映する狙いで、ロジスティック曲線も試したが、<br>統計モデルの収束に難あり。
-    - 一般化するなら完全に再順化能を失うまで弱光日数を伸ばす必要がある。
-        - R17までは試してみたところ、ややヘタれるものの強光順化可能。
-    - <small>はっきり言えそうなのは、<br>「1週間程度の弱光であれば、光合成能力の順化の柔軟性を**極端に**損ねることはなさそう」ということ</small>
+<ul>
+<li> 悩ましい</li>
+<li>R8の回復開始の遅れを反映する狙いで、ロジスティック曲線も試したが、<br>統計モデルの収束に難あり</li>
+<li>一般化するなら完全に再順化能を失うまで弱光日数を伸ばす必要がある</li>
+<li>R17までは試してみたところ、ややヘタれるものの強光順化可能</li>
+<li>はっきり言えそうなのは、<br>「1週間程度の弱光であれば、光合成能力の順化の柔軟性を**極端に**損ねることはなさそう」ということ</li>
 
 </div>
 
