@@ -213,8 +213,6 @@ cyt-bfが新たに合成されず強光順化できない
 
 
 
-
-
 +++
 
 **結果３: cyt-bf分解・合成特性の解析**
@@ -274,9 +272,10 @@ cyt-bfが新たに合成されず強光順化できない
 </div class="column1">
 
 <div class="column2">
+<br>
 @ul
 - <small>顕著な試験区間差はなし<br>(半減期換算でおよそ14–17日の範囲)</small>
-- <small>弱光処理期間が長いほど<br>むしろ回復が速い？</small>
+- <small>弱光日数が長いほど<br>むしろ回復が速い？</small>
 @ulend
 </div class="column2">
 
@@ -320,7 +319,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 +++
 
-<div style="position:relative; left:10px">
+<div style="position:relative; left:3%">
 
 @ul
 - **Q. 成熟葉の光合成能力は強光順化応答を示さないのか**
