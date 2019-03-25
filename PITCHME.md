@@ -33,7 +33,7 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 ---?color=linear-gradient(to left, #ccddee, #aabbcc)
 
-## Introduction
+## Introduction {class="center"}
 
 +++
 
