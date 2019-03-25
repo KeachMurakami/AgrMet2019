@@ -170,7 +170,7 @@ cyt-bfが新たに合成されず強光順化できない
 <br>
 <br>
 @ul
-- <small>R2, R4, R8:<br>再強光処理で上昇 <br>→ **強光順化**</small>
+- <small>R2, R4, R8:<br>再強光処理で上昇 <br>→ <orange>強光順化</orange></small>
 @ulend
 </div class="right">
 
@@ -188,7 +188,7 @@ cyt-bfが新たに合成されず強光順化できない
 <br>
 <br>
 @ul
-- <small>P<sub>max</sub>と同様の傾向</small>
+- <small>光合成能力と同様の傾向</small>
 - <small>cyt-bf量が光合成能力の律速要因 <small>(Dwyer et al. 2012; JXB)</small></small>
 - <small><orange>成熟葉内でもcyt-bfが合成された？</orange></small>
 @ulend
@@ -275,7 +275,7 @@ cyt-bfが新たに合成されず強光順化できない
 <br>
 @ul
 - <small>顕著な試験区間差はなし<br>(半減期換算でおよそ14–17日の範囲)</small>
-- <small>弱光日数が長いほど<br>むしろ回復が速い？</small>
+- <small>むしろ弱光日数が長いほど回復が速い？</small>
 @ulend
 </div class="column2">
 
@@ -296,12 +296,30 @@ cyt-bfが新たに合成されず強光順化できない
 +++
 
 <div class="column1">
+<img src="figure/simu-3.png" width="100%">
+</div class="column1">
+
+<div class="column2">
+<div class="fragment">
+<img src="img/with_curve.gif" width="100%">
+</div class="fragment">
+</div class="column2">
+
++++
+
+<div class="column1">
 <img src="figure/simu-1.png" width="100%">
 </div class="column1">
 
 <div class="column2">
-<img src="figure/simu-2.png" width="100%">
+<div class="fragment">
+<img src="figure/simu-2.gif" width="100%">
+</div class="fragment">
 </div class="column2">
+
+<div class="fragment" style="text-align:center">
+コツコツ補光 () > まとめて補光 ()
+</div>
 
 ---?color=linear-gradient(to left, #ccddee, #aabbcc)
 
@@ -309,7 +327,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 +++
 
-<div style="position:relative; left:3%">
+<div style="position:relative; left:20px">
 
 @ul
 - **Q. 成熟葉の光合成能力は強光順化応答を示さないのか**
