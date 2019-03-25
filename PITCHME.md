@@ -282,7 +282,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 +++
 
-**Ontogenetic repression of cyt-bf biogenesis—Hojka et al. (2014; Plant Physiol)**
+**Ontogenetic repression of cyt-bf biogenesis<br><span style="text-align:right">—Hojka et al. (2014; Plant Physiol)<span>**
 
 <div style="position:relative; left:10px; font-size: 0.7em">
 <br>
