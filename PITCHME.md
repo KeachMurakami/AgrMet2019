@@ -33,7 +33,7 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 ---?color=linear-gradient(to left, #ccddee, #aabbcc)
 
-## Introduction {class="center"}
+## Introduction
 
 +++
 
@@ -61,7 +61,7 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 
 
-<p style="text-align:center;"><img src="figure/growth_irad-1.png" height="400px"></p>
+<p style="text-align:center;"><img src="figure/growth_irad-1.png" height="430px"></p>
 
 <p class = "fragment" style="text-align:center;">展開を終えた葉 = **成熟葉**ではどうか？</p>
 
@@ -184,11 +184,12 @@ cyt-bfが新たに合成されず強光順化できない
 <img src="figure/cyt-1.png" width="100%">
 </div class="left">
 
-<div class="column2">
+<div class="column2" style="position:relative; left:-2%">
 <br>
 <br>
 @ul
-- <small>P<sub>max</sub>と同様の傾向<br> → PSII量は光合成能力を律速しない <small>(Dwyer et al. 2012; JXB)</small></small>
+- <small>P<sub>max</sub>と同様の傾向</small>
+- <small>cyt-bf量が光合成能力の律速要因 <small>(Dwyer et al. 2012; JXB)</small></small>
 - <small>**成熟葉内でもcyt-bfが合成された？**</small>
 @ulend
 </div class="right">
@@ -226,15 +227,15 @@ cyt-bfが新たに合成されず強光順化できない
 
 <div class="fragment">
 <div class="column1">
-<img src="figure/sample-1.png" width="100%">
+<img src="figure/sample-1.png" width="90%">
 </div>
 
 <div class="column2">
+<br>
 @ul
 - <small>*k*<sub>d</sub>: 分解速度</small>
 - <small>*k*<sub>r</sub>: 合成速度</small>
 - <small>*y*<sub>steady</sub>: 順化後の定常値</small>
-- <small>batch-dependentな</small>
 @ulend
 </div>
 </div class="fragment">
@@ -249,13 +250,11 @@ cyt-bfが新たに合成されず強光順化できない
 
 **結果３: cyt-bf分解・合成特性の解析**
 
-<div style="position:relative; left:0px; top:10%; width:100%; height:800px">
-  <div style="position:absolute; left:0px; top:0px; width:100%; height:100%">
-    <img src="figure/model-1.png" width="80%">
-  </div>
-  <div class = "fragment" style="position:absolute; left:0px; top:0px; width:100%; height:100%">
-    <img src="figure/model-2.png" width="80%">
-  </div>
+<div class="column1">
+<img src="figure/model-2.png" width="100%">
+</div>
+<div class="column2">
+<img src="figure/model-3.png" width="100%">
 </div>
 
 +++
