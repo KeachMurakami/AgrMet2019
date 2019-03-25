@@ -249,7 +249,7 @@ cyt-bfが新たに合成されず強光順化できない
 **結果３: cyt-bf分解・合成特性の解析**
 
 <div class="column1">
-<img src="figure/model-2.png" width="100%">
+<img src="figure/model-2_light.png" width="100%">
 </div>
 <div class="column2">
 <img src="figure/model-3.png" width="100%">
@@ -287,20 +287,10 @@ cyt-bfが新たに合成されず強光順化できない
 
 **補光シミュレーション: コツコツ vs まとめて**
 
-<div class="column_left40">
-<div class="fragment">
 <img src="img/compare_schemes.png" width="100%">
-</div class="fragment">
-</div class="">
 
-<div class="column_right60" style="line-height: 1.2; font-size: 0.5em">
-<div class="fragment">
-- 個体に成熟葉が１枚だけ
-- ON/OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備
-- PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり
-- 非直角双曲線型の光ー光合成曲線 <small>(初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10)</small>
-- 常にCO<sub>2</sub>飽和条件
-</div class="fragment">
+<div class="fragment" style="line-height: 1.2; font-size: 0.5em">
+個体に成熟葉が１枚だけ / ON・OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備 / PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり / 非直角双曲線型の光ー光合成曲線 <small>(初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10)</small> / 常にCO<sub>2</sub>飽和条件
 </div class="column_right60" style="font-size: 0.5em">
 
 +++
