@@ -129,9 +129,9 @@ cyt-bfが新たに合成されず強光順化できない
 - <small>光合成能力</small>
   - <small>CO<sub>2</sub>濃度1%、飽和光 (白色LED, 2000 µmol m<sup>-2</sup> s<sup>-1</sup>) での総酸素発生速度</small>
 - <small>functionalなPSII量</small>
-  - <small>飽和閃光４回で１回の酸素発生を仮定 <small>(Chow et al. 1991; Aust J Plant Physiol)</small></small>
+  - <small>飽和閃光４回で１回の酸素発生を仮定 (Chow et al. 1991; Aust J Plant Physiol)</small>
 - <small>cyt-bf量</small>
-  - <small>光合成能力・functionalなPSII量から経験式に従って算出 <small>(Dwyer et al. 2012; JXB)</small></small>
+  - <small>光合成能力・functionalなPSII量から経験式に従って算出 (Dwyer et al. 2012; JXB)</small>
 
 </div style="position:relative; left:25px">
 
@@ -190,7 +190,7 @@ cyt-bfが新たに合成されず強光順化できない
 @ul
 - <small>P<sub>max</sub>と同様の傾向</small>
 - <small>cyt-bf量が光合成能力の律速要因 <small>(Dwyer et al. 2012; JXB)</small></small>
-- <small>**成熟葉内でもcyt-bfが合成された？**</small>
+- <small><orange>成熟葉内でもcyt-bfが合成された？</orange></small>
 @ulend
 </div class="right">
 
@@ -285,12 +285,12 @@ cyt-bfが新たに合成されず強光順化できない
 
 +++
 
-**補光シミュレーション: コツコツ vs まとめて**
+**補光シミュレーション: 来週の総光合成量を高める**
 
 <img src="img/compare_schemes.png" width="100%">
 
 <div class="fragment" style="line-height: 1.2; font-size: 0.5em">
-個体に成熟葉が１枚だけ / ON・OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備 / PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり / 非直角双曲線型の光ー光合成曲線 <small>(初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10)</small> / 常にCO<sub>2</sub>飽和条件
+個体に成熟葉が１枚だけ / ON・OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備 / PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり / 非直角双曲線型の光ー光合成曲線 (初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10) / 常にCO<sub>2</sub>飽和条件
 </div class="column_right60" style="font-size: 0.5em">
 
 +++
