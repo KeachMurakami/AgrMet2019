@@ -280,19 +280,6 @@ cyt-bfが新たに合成されず強光順化できない
 @ulend
 </div class="column2">
 
-+++
-
-**Ontogenetic repression of cyt-bf biogenesis<br><span style="text-align:right">—Hojka et al. (2014; Plant Physiol)<span>**
-
-<div style="position:relative; left:10px; font-size: 0.7em">
-<br>
-@ul
-- ‘... under high-light conditions, all plants suffered from moderate oxidative stress’
-- **強光阻害でcyt-bf修復が妨げられただけでは...？**
-    - cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復される
-    - 電子伝達流量コントローラ？ (Li et al. 2018; Trend Plant Sci)
-@ulend
-</div style="position:relative; left:10px">
 
 
 
@@ -384,6 +371,20 @@ This work was supported by JSPS KAKENHI (Grant Number 17J04736)
 <li>はっきり言えそうなのは、<br>「1週間程度の弱光であれば、光合成能力の順化の柔軟性を**極端に**損ねることはなさそう」ということ</li>
 
 </div>
+
++++
+
+**Ontogenetic repression of cyt-bf biogenesis<br><span style="text-align:right">—Hojka et al. (2014; Plant Physiol)<span>**
+
+<div style="position:relative; left:10px; font-size: 0.6em">
+<br>
+@ul
+- ‘... under high-light conditions, all plants suffered from moderate oxidative stress’
+- **強光阻害でcyt-bf修復が妨げられただけでは...？**
+    - cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復される
+    - 電子伝達流量コントローラ？ (Li et al. 2018; Trend Plant Sci)
+@ulend
+</div style="position:relative; left:10px">
 
 <!-- +++ -->
 
