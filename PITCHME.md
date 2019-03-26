@@ -308,12 +308,22 @@ cyt-bfが新たに合成されず強光順化できない
 +++
 
 <div class="column1">
+<img src="figure/simu-3.png" width="100%">
+</div class="column1">
+
+<div class="column2">
+<img src="img/with_diurnal.gif" width="100%">
+</div class="column2">
+
++++
+
+<div class="column1">
 <img src="figure/simu-1.png" width="100%">
 </div class="column1">
 
 <div class="column2">
 <div class="fragment">
-<img src="figure/simu-2.gif" width="100%">
+<img src="figure/simu-2.png" width="100%">
 </div class="fragment">
 </div class="column2">
 
