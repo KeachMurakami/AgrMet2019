@@ -87,7 +87,7 @@ Note:
 成熟葉の順化に着目した文献
 
 <div class="column1" style="font-size: 0.5em">
-受光量の低下に応じて速やかにcyt-bfが分解される
+受光量の低下に応じた速やかなcyt-bf分解
 <img src="img/zhu.png" height="400px">
 </div class = "column1">
 
@@ -195,10 +195,9 @@ Note:
 
 <div class="column2">
 <br>
-<br>
-<br>
 @ul
-- <small>R2, R4, R8:<br>再強光処理で上昇 <br>→ <orange>強光順化</orange></small>
+- <small>R2, R4, R8:<br>再強光処理で回復 <br>→ <orange>強光順化</orange></small>
+- <small>R17でも回復あり</small>
 @ulend
 </div class="right">
 
@@ -332,7 +331,7 @@ Note:
 <img src="img/compare_schemes.png" width="100%">
 
 <div style="line-height: 1.2; font-size: 0.5em">
-個体に成熟葉が１枚だけ / ON・OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備 / PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり / 非直角双曲線型の光ー光合成曲線 (初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10) / 常にCO<sub>2</sub>飽和条件 / 温度関係は一定
+個体に成熟葉が１枚だけ / ON・OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備 / PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり / 非直角双曲線型の光ー光合成曲線 (初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10) / 常にCO<sub>2</sub>飽和条件 / 葉温は一定
 </div style="font-size: 0.5em">
 
 +++
@@ -410,9 +409,9 @@ Note:
 - **Q. 成熟葉の光合成能力は強光順化応答を示さないのか**
     - **A. 示す**
 <br>
-- <small>cytochrome *b*<sub>6</sub>*f*は成熟葉内でも合成されるらしい</small>
-- <small>１週間程度の弱光処理であれば、強光順化の柔軟性を損ねないらしい</small>
-- <small>順化のモデル化により少し先の将来までの光合成量を踏まえた意思決定が可能</small>
+- <middle>cytochrome *b*<sub>6</sub>*f*は成熟葉内でも合成されるらしい</middle>
+- <middle>１週間程度の弱光処理であれば、強光順化の柔軟性を損ねないらしい</middle>
+- <middle>順化のモデル化により少し先の将来までの光合成量を踏まえた意思決定が可能</middle>
 @ulend
 </div style="position:relative; left:10px">
 
