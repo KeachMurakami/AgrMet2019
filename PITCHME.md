@@ -65,13 +65,22 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 <p class = "fragment" style="text-align:center;">展開を終えた葉 = **成熟葉**ではどうか？</p>
 
+Note:
+
+これは太陽光下で３水準の遮光レベルを設けてホウレンソウを栽培した例です。遮光率が高い、つまり暗いと光合成能力が低くなります。
+こんな風に育つ過程での光環境の影響はよく調べられているのですが、展開後の葉、成熟葉、の順化に関してはあまりよく調べられていません。
+
 +++
 
 葉の寿命は長い
 
 <p style="text-align:center;"><img src="img/jurik.png" height="430px"></p>
 
-<p class = "fragment" style="text-align:center;">成熟葉の柔軟な強光順化は<orange>生涯の‘稼ぎ’</orange>に大きな影響を及ぼしうる</p>
+<p class = "fragment" style="text-align:center;">成熟葉の柔軟な強光順化は<orange>生涯の‘稼ぎ’</orange>に影響大？</p>
+
+Note:
+
+例えばいちごでは、展開までと展開後であれば、後者の期間のほうが長い。
 
 +++
 
@@ -90,6 +99,14 @@ cyt-bfが新たに合成されず強光順化できない
 
 <p class="fragment" style="text-align:center;"><orange>数日の曇りで光合成能力が不可逆的に低下する？</orange></p>
 
+Note:
+
+ここ数年の文献では、強光から弱光へ移すとcyt-bfが速やかに分解される、その半減期は２日だった、というようなものがありました。
+また詳細は省きますが、成熟葉ではどうやらサイトクロムが合成されなくて、強光に順化できない、というような報告もあります。
+
+このふたつを踏まえると、、、、ということになります。
+どうでしょうかね。曇りが数日つづくことなんてざらにありますから、ちょっと信じがたいとぼくは思います。
+
 +++
 
 <br>
@@ -100,7 +117,7 @@ cyt-bfが新たに合成されず強光順化できない
 <br>
 <div style="position:relative; left:10px">
 @ul
-- 予想: 成熟後、徐々に順化柔軟性が失われる
+- 予想: 成熟後、徐々に強光順化の柔軟性が失われる
 - 実験: 成熟葉に対して強光 → 数日の弱光 → 再強光
 - 手法: 弱光日数が回復過程に及ぼす影響をモデル化
 @ulend
@@ -116,11 +133,20 @@ cyt-bfが新たに合成されず強光順化できない
 
 <img src="img/procedure.png" width="90%">
 
+Note:
+
+エンドウを使いました。１７日間育苗して、その後強光あるいは弱光のもとで育てて、光合成能力を測る、という簡単な系です。
+
 +++
 
 試験区
 
 <img src="img/scheme.png" width="90%">
+
+Note:
+
+試験区は５つ。
+基本的に処理区あたり３株を測定に使って、最大８反復をとりました。
 
 +++
 
@@ -240,6 +266,11 @@ cyt-bfが新たに合成されず強光順化できない
 </div>
 </div class="fragment">
 
+Note:
+
+この回復の項が、暗期あるいは弱光時にはなし、強光照射時にはあり、という形です。
+強光処理区では、cyt-bfは一定と仮定しています。
+
 +++
 
 <!-- **結果３: cyt-bf分解・合成特性の解析 (モデル vs 実測)** -->
@@ -256,6 +287,11 @@ cyt-bfが新たに合成されず強光順化できない
 <div class="column2">
 <img src="figure/model-3.png" width="100%">
 </div>
+
+Note:
+
+ポイントが個葉のデータで、帯が確信区間です。
+モデルと実測で散布図を見ておくと、こんな感じです。強光区は一定としているので覗いています。それなりに乗っているので大丈夫そうです。
 
 +++
 
@@ -281,6 +317,10 @@ cyt-bfが新たに合成されず強光順化できない
 @ulend
 </div class="column2">
 
+Note:
+
+１週間程度の弱光であれば強光順化の柔軟性を損ねないらしい、という結果です。
+予想と大きく外れましたが、これはこれでいいこともあります。時定数が大きくは変化しないので、
 
 
 
@@ -292,7 +332,7 @@ cyt-bfが新たに合成されず強光順化できない
 <img src="img/compare_schemes.png" width="100%">
 
 <div style="line-height: 1.2; font-size: 0.5em">
-個体に成熟葉が１枚だけ / ON・OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備 / PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり / 非直角双曲線型の光ー光合成曲線 (初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10) / 常にCO<sub>2</sub>飽和条件
+個体に成熟葉が１枚だけ / ON・OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備 / PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり / 非直角双曲線型の光ー光合成曲線 (初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10) / 常にCO<sub>2</sub>飽和条件 / 温度関係は一定
 </div style="font-size: 0.5em">
 
 +++
@@ -349,19 +389,19 @@ cyt-bfが新たに合成されず強光順化できない
 
 +++
 
-<div style="position:relative; left:20px">
+<div style="position:relative; left:30px">
 
 @ul
 - **Q. 成熟葉の光合成能力は強光順化応答を示さないのか**
     - **A. 示す**
 <br>
-- cytochrome *b*<sub>6</sub>*f*は成熟葉内でも合成されるらしい
-- １週間程度の弱光処理であれば、再順化時の時間的特性に著しい影響を及ぼすことはなさそう
-- 順化のモデル化は近い未来の気象に合わせた環境調節を可能にしうる
+- <small>cytochrome *b*<sub>6</sub>*f*は成熟葉内でも合成されるらしい</small>
+- <small>１週間程度の弱光処理であれば、強光順化の柔軟性を損ねないらしい</small>
+- <small>順化のモデル化により少し先の将来までの光合成量を踏まえた意思決定が可能</small>
 @ulend
 </div style="position:relative; left:10px">
 
-<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:550px; height:60px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
+<!--html_preserve--><div style='position:absolute; left:-50%; width:200%; top:580px; height:60px; padding:10px; font-size:0.5em; text-align:center; background-color:grey; color:white'><!--/html_preserve-->
 This work was supported by JSPS KAKENHI (Grant Number 17J04736)  
 ‘個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発’
 </div>
