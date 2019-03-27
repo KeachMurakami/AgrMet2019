@@ -291,9 +291,9 @@ cyt-bfが新たに合成されず強光順化できない
 
 <img src="img/compare_schemes.png" width="100%">
 
-<div class="fragment" style="line-height: 1.2; font-size: 0.5em">
+<div style="line-height: 1.2; font-size: 0.5em">
 個体に成熟葉が１枚だけ / ON・OFF制御 300 µmol m<sup>-2</sup> s<sup>-1</sup>の補光設備 / PPFD 300 µmol m<sup>-2</sup> s<sup>-1</sup> で回復項 (*k*<sub>r</sub>) ありなしが切り替わり / 非直角双曲線型の光ー光合成曲線 (初期勾配 = 0.05, 凸度 = 0.80, 暗呼吸速度 = 光合成能力/10) / 常にCO<sub>2</sub>飽和条件
-</div class="column_right60" style="font-size: 0.5em">
+</div style="font-size: 0.5em">
 
 +++
 
@@ -336,13 +336,11 @@ cyt-bfが新たに合成されず強光順化できない
 </div class="column1">
 
 <div class="column2">
-<div class="fragment">
 <img src="figure/simu-4.png" width="100%">
-</div class="fragment">
 </div class="column2">
 
 <div class="fragment" style="text-align:center">
-コツコツ補光 > まとめて補光
+コツコツ補光 < まとめて補光
 </div>
 
 ---?color=linear-gradient(to left, #ccddee, #aabbcc)
