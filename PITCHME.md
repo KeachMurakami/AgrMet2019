@@ -50,7 +50,7 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 <br>
 @ul
 - <small>強光下では高い方が有利</small>
-- <small><orange>cytochrome *b*<sub>6</sub>*f* (cyt-bf) 量</orange>と正の相関 (Evans 1988など)</small>
+- <small><orange>cytochrome *b*<sub>6</sub>*f* (cyt-bf) 量</orange>と<br>正の相関 <small>(Evans 1988; Aust J Plant Physiol)</small></small>
 @ulend
 </div class="left">
 
@@ -69,7 +69,9 @@ This slide is available: <!--html_preserve-->@fa[github]<!--/html_preserve--> `K
 
 葉の寿命は長い
 
-成熟葉の柔軟な強光順化は**葉の生涯の‘稼ぎ’**に大きな影響を及ぼすのでは？
+<p style="text-align:center;"><img src="img/jurik.png" height="430px"></p>
+
+<p class = "fragment" style="text-align:center;">成熟葉の柔軟な強光順化は<orange>生涯の‘稼ぎ’</orange>に大きな影響を及ぼしうる</p>
 
 +++
 
@@ -189,7 +191,7 @@ cyt-bfが新たに合成されず強光順化できない
 <br>
 @ul
 - <small>光合成能力と同様の傾向</small>
-- <small>cyt-bf量が光合成能力の律速要因 <small>(Dwyer et al. 2012; JXB)</small></small>
+- <small>cyt-bf量が光合成能力の主要な律速要因 <small>(Dwyer et al. 2012; JXB)</small></small>
 - <small><orange>成熟葉内でもcyt-bfが合成された？</orange></small>
 @ulend
 </div class="right">
@@ -219,7 +221,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 <div style="font-size: 0.5em">
 `\[
-\frac{dy}{dt} = y - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
+\frac{dy}{dt} = - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
 \]`
 </div style="font-size: 0.5em">
 
@@ -261,7 +263,7 @@ cyt-bfが新たに合成されず強光順化できない
 
 <div style="font-size: 0.5em">
 `\[
-\frac{dy}{dt} = y - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
+\frac{dy}{dt} = - k_\textrm{d} \cdot y + k_\textrm{r} \cdot (y_\textrm{steady} - y)
 \]`
 </div style="font-size: 0.5em">
 
@@ -296,7 +298,7 @@ cyt-bfが新たに合成されず強光順化できない
 +++
 
 <div class="column1">
-<img src="figure/simu-3.png" width="100%">
+<img src="figure/simu-1.png" width="100%">
 </div class="column1">
 
 <div class="column2">
@@ -308,7 +310,7 @@ cyt-bfが新たに合成されず強光順化できない
 +++
 
 <div class="column1">
-<img src="figure/simu-3.png" width="100%">
+<img src="figure/simu-1.png" width="100%">
 </div class="column1">
 
 <div class="column2">
@@ -318,17 +320,29 @@ cyt-bfが新たに合成されず強光順化できない
 +++
 
 <div class="column1">
-<img src="figure/simu-1.png" width="100%">
+<img src="figure/simu-2.png" width="100%">
 </div class="column1">
 
 <div class="column2">
 <div class="fragment">
+<img src="figure/simu-3.png" width="100%">
+</div class="fragment">
+</div class="column2">
+
++++
+
+<div class="column1">
 <img src="figure/simu-2.png" width="100%">
+</div class="column1">
+
+<div class="column2">
+<div class="fragment">
+<img src="figure/simu-4.png" width="100%">
 </div class="fragment">
 </div class="column2">
 
 <div class="fragment" style="text-align:center">
-コツコツ補光 () > まとめて補光 ()
+コツコツ補光 > まとめて補光
 </div>
 
 ---?color=linear-gradient(to left, #ccddee, #aabbcc)
@@ -391,15 +405,18 @@ This work was supported by JSPS KAKENHI (Grant Number 17J04736)
 
 +++
 
-**Ontogenetic repression of cyt-bf biogenesis<br><span style="text-align:right">—Hojka et al. (2014; Plant Physiol)<span>**
+<small>**The switch-off of cyt-bf biogenesis in mature leaves**—Hojka et al. (2014; Plant Physiol)</small>  
+<small>**Ontogenetic repression of cyt-bf biogenesis**—Schöttler et al. (2015; JXB)</small>
 
 <div style="position:relative; left:10px; font-size: 0.6em">
 <br>
 @ul
-- ‘... under high-light conditions, all plants suffered from moderate oxidative stress’
-- **強光阻害でcyt-bf修復が妨げられただけでは...？**
-    - cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復される
-    - 電子伝達流量コントローラ？ (Li et al. 2018; Trend Plant Sci)
+- 強光再照射が強すぎたせいでは？
+    - ‘... under high-light conditions, all plants suffered from moderate oxidative stress ’—(Hojka et al. 2014)
+        - cyt-bfのサブユニット (PetD) はPSIIのD1と同じくらい高速で分解・修復される <small>(Li et al. 2018; Trend Plant Sci)</small>
+        - D1のような修復阻害？ <small>(Nishiyama et al. 2011; Physiol Plant)</small>
+- 種依存性があるのでは？
+    - 文献はタバコ、今回はエンドウ
 @ulend
 </div style="position:relative; left:10px">
 
