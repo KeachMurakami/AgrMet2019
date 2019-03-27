@@ -347,6 +347,12 @@ Note:
 </div class="fragment">
 </div class="column2">
 
+Note:
+
+コツコツ補光区の例ですね。光合成能力の時間変化はこんな感じです。
+で、その各時間での光合成曲線がこうです。水色のカーブが積み重なるイメージです。
+
+
 +++
 
 <div class="column1">
@@ -356,6 +362,9 @@ Note:
 <div class="column2">
 <img src="img/with_diurnal.gif" width="100%">
 </div class="column2">
+
+Note:
+で、PPFDも既知としているので、光合成速度の経時推移が計算できる、という形です。
 
 +++
 
@@ -368,6 +377,12 @@ Note:
 <img src="figure/simu-3.png" width="100%">
 </div class="fragment">
 </div class="column2">
+
+Note:
+
+コツコツとまとめてを比較してみます。
+光合成能力の推移がこうで、光合成速度の推移がこうです。
+どっちが大きいのか、ぱっと見てもわかりませんが
 
 +++
 
